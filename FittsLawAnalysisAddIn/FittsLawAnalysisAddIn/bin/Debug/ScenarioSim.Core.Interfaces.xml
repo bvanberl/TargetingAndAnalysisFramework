@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ScenarioSim.Core.Interfaces</name>
+    </assembly>
+    <members>
+        <member name="T:ScenarioSim.Core.Interfaces.IActorRepository">
+            <summary>
+            An interface used to store and retrieve actor entities.
+            </summary>
+            <seealso cref="!:ScenarioSim.Core.Interfaces.IEntityRepository&lt;ScenarioSim.Core.Entities.Actor&gt;" />
+        </member>
+        <member name="T:ScenarioSim.Core.Interfaces.IAssetRepository">
+            <summary>
+            An interface used to store and retrieve asset entities.
+            </summary>
+            <seealso cref="!:ScenarioSim.Core.Interfaces.IEntityRepository&lt;ScenarioSim.Core.Entities.Asset&gt;" />
+        </member>
+        <member name="T:ScenarioSim.Core.Interfaces.IEntityRepository`1">
+            <summary>
+            A generic repository used to store and retrieve entities.
+            </summary>
+            <typeparam name="T">The type of entity stored in the repository.</typeparam>
+        </member>
+        <member name="M:ScenarioSim.Core.Interfaces.IEntityRepository`1.GetAll">
+            <summary>
+            Gets all entities.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ScenarioSim.Core.Interfaces.IEntityRepository`1.Get(System.Guid)">
+            <summary>
+            Gets the specified entity.
+            </summary>
+            <param name="id">The identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ScenarioSim.Core.Interfaces.IEntityRepository`1.Save(`0)">
+            <summary>
+            Saves the specified entity.
+            </summary>
+            <param name="entity">The entity.</param>
+        </member>
+        <member name="M:ScenarioSim.Core.Interfaces.IEntityRepository`1.Remove(`0)">
+            <summary>
+            Removes the specified entity.
+            </summary>
+            <param name="entity">The entity.</param>
+        </member>
+        <member name="T:ScenarioSim.Core.Interfaces.IProgramRepository">
+            <summary>
+            Used to retrieve and store programs.
+            </summary>
+        </member>
+        <member name="T:ScenarioSim.Core.Interfaces.IScenarioRepository">
+            <summary>
+            An interface used to store and retrieve scenarios.
+            </summary>
+            <seealso cref="T:ScenarioSim.Core.Entities.Scenario" />
+        </member>
+        <member name="M:ScenarioSim.Core.Interfaces.IScenarioRepository.GetByScenarioIds(System.Collections.Generic.IList{System.Guid})">
+            <summary>
+            Gets the by scenario ids.
+            </summary>
+            <param name="scenarioIds">The scenario ids.</param>
+            <returns></returns>
+        </member>
+        <member name="T:ScenarioSim.Core.Interfaces.ISchemaFactory">
+            <summary>
+            A factory interface used to create schema entities.
+            </summary>
+        </member>
+        <member name="M:ScenarioSim.Core.Interfaces.ISchemaFactory.MakeSchema">
+            <summary>
+            Makes the schema.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ScenarioSim.Core.Interfaces.ISchemaRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ScenarioSim.Core.Interfaces.IUnitOfWork">
+            <summary>
+            Represents a single transaction to be commited to the repositories.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Interfaces.IUnitOfWork.SchemaRepository">
+            <summary>
+            Gets the schema repository.
+            </summary>
+            <value>
+            The schema repository.
+            </value>
+        </member>
+        <member name="M:ScenarioSim.Core.Interfaces.IUnitOfWork.Commit">
+            <summary>
+            Commits the changes permanently to the repositories.
+            </summary>
+        </member>
+        <member name="T:ScenarioSim.Core.Interfaces.IUserActionRepository">
+            <summary>
+            An interface that provides the means to store and retrieve user action entities.
+            </summary>
+        </member>
+        <member name="M:ScenarioSim.Core.Interfaces.IUserActionRepository.GetAll">
+            <summary>
+            Returns all of the user events in the repository.
+            </summary>
+        </member>
+        <member name="M:ScenarioSim.Core.Interfaces.IUserActionRepository.Save(ScenarioSim.Core.Entities.PerformerAction)">
+            <summary>
+            Stores the given user action in the repository.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="T:ScenarioSim.Core.Interfaces.IScenarioPerformanceRepository">
+            <summary>
+            Used to store and retrieve scenario performances.
+            </summary>
+        </member>
+        <member name="M:ScenarioSim.Core.Interfaces.IScenarioPerformanceRepository.GetByScenario(ScenarioSim.Core.Entities.Scenario)">
+            <summary>
+            Gets the scenario performances by scenario.
+            </summary>
+            <param name="scenario">The scenario.</param>
+            <returns></returns>
+        </member>
+        <member name="T:ScenarioSim.Core.Interfaces.IPerformerRepository">
+            <summary>
+            An interface used to retrieve and store performers.
+            </summary>
+            <seealso cref="!:ScenarioSim.Core.Interfaces.IEntityRepository&lt;ScenarioSim.Core.Entities.Performer&gt;" />
+        </member>
+    </members>
+</doc>

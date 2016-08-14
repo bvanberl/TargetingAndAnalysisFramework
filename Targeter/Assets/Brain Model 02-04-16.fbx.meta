@@ -1,0 +1,1790 @@
+fileFormatVersion: 2
+guid: 571555a2b95764c7c9f2526512140bdc
+timeCreated: 1454705192
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 3rd Ventricle
+    100002: 4th Ventricle
+    100004: A_ASA
+    100006: A_Basilar_Artery
+    100008: A_L_ACA
+    100010: A_L_AICA
+    100012: A_L_Ascending_Pharyngeal_A_R_Ascending_Pharyngeal
+    100014: A_L_External_Carotid_A_R_External_Carotid
+    100016: A_L_Facial_Artery_A_R_Facial_Artery
+    100018: A_L_Internal_Carotid
+    100020: A_L_Labyrinthine
+    100022: A_L_Maxillary_Artery_A_R_Maxillary_Artery
+    100024: A_L_Maxillary_Artery_A_R_Maxillary_Artery_MeshPart0
+    100026: A_L_Maxillary_Artery_A_R_Maxillary_Artery_MeshPart1
+    100028: A_L_MCA
+    100030: A_L_Occipital_Artery_A_R_Occipital_Artery
+    100032: A_L_Ophthalmic_Artery
+    100034: A_L_PCA
+    100036: A_L_PICA
+    100038: A_L_Pontine_Artery
+    100040: A_L_Posterior_Auricular_Artery
+    100042: A_L_Posterior_Communicating_Artery
+    100044: A_L_PSA
+    100046: A_L_Superficial_Temporal_Artery
+    100048: A_L_Superior_Cerebellar
+    100050: A_L_Superior_Thyroid_Artery
+    100052: A_L_Vertebral_Artery
+    100054: A_R_ACA
+    100056: A_R_AICA
+    100058: A_R_Ascending_Pharyngeal
+    100060: A_R_External_Carotid
+    100062: A_R_Facial_Artery
+    100064: A_R_Internal_Carotid
+    100066: A_R_Labyrinthine
+    100068: A_R_Lingual_Artery
+    100070: A_R_Maxillary_Artery
+    100072: A_R_Maxillary_Artery_MeshPart0
+    100074: A_R_Maxillary_Artery_MeshPart1
+    100076: A_R_MCA
+    100078: A_R_Occipital_Artery
+    100080: A_R_Ophthalmic_Artery
+    100082: A_R_PCA
+    100084: A_R_PICA
+    100086: A_R_Pontine_Artery
+    100088: A_R_Posterior_Auricular_Artery
+    100090: A_R_Posterior_Communicating_Artery
+    100092: A_R_Posterior_Meningeal_Branch
+    100094: A_R_PSA
+    100096: A_R_Superficial_Temporal_Artery
+    100098: A_R_Superior_Cerebellar
+    100100: A_R_Superior_Thyroid_Artery
+    100102: A_R_Vertebral_Artery
+    100104: //RootNode
+    100106: Brainstem
+    100108: Caudate Nucleus
+    100110: Cavernous Sinus
+    100112: Central Canal
+    100114: Cerebellar Pedunc UT
+    100116: Cerebellar Peduncles
+    100118: Cerebellum- Vermis
+    100120: Cerebellum-White-Matter
+    100122: Cerebellum-White-Matter_MeshPart0
+    100124: Cerebellum-White-Matter_MeshPart1
+    100126: Cerebellum_Untitled.056
+    100128: Cerebellum_ut
+    100130: Cerebellum_ut_MeshPart0
+    100132: Cerebellum_ut_MeshPart1
+    100134: Cerebral Aqueduct
+    100136: Confluence of SInuses
+    100138: Corpus Callosum
+    100140: Corpus Callosum_Body
+    100142: Corpus Callosum_Genu
+    100144: Corpus Callosum_Splenium
+    100146: Cortex_L
+    100148: Cortex_L Old Text
+    100150: Cortex_R
+    100152: Cortex_R Old Text
+    100154: DorsalCochlearNuc.000
+    100156: DorsalCochlearNucleus
+    100158: EW Nucleus
+    100160: Fornix
+    100162: Globus Pallidus
+    100164: Hippocampus
+    100166: Hypothalamus
+    100168: Inf. Vestib Nucle.000
+    100170: Inf. Vestib Nucleus
+    100172: Inferior Colliculi
+    100174: Internal Capsule
+    100176: L Cerebellum- Cortex
+    100178: L_anterior_occipital_sulcus_preoccipital_notch
+    100180: L_Broca's Area
+    100182: L_calcarine_sulcus
+    100184: L_Central_Sulcus
+    100186: L_central_sulcus
+    100188: L_cingulate_anterior
+    100190: L_cingulate_midanterior
+    100192: L_cingulate_midposterior-Wernicke's
+    100194: L_cingulate_posteriordorsal
+    100196: L_cingulate_posteriorventral
+    100198: L_cingulate_sulcus_marginalis
+    100200: L_circular_sulcus_insula_anterior
+    100202: L_circular_sulcus_insula_inferior
+    100204: L_circular_sulcus_insula_superior
+    100206: L_Cortex_final
+    100208: L_Cortex_textured.001
+    100210: L_cuneus
+    100212: L_Frontal_EyeField
+    100214: L_frontal_inferior_operculum
+    100216: L_frontal_inferior_orbital
+    100218: L_frontal_inferior_sulcus
+    100220: L_frontal_inferior_triangularis-Brocas
+    100222: L_Frontal_Lobe
+    100224: L_frontal_middle
+    100226: L_frontal_middle_sulcus
+    100228: L_frontal_superior
+    100230: L_frontal_superior_sulcus
+    100232: L_fusiform
+    100234: L_Inferior_Temporal Gyrus
+    100236: L_insular_short
+    100238: L_intraparietal_and_transverse_parietal_sulci
+    100240: L_lateral_fissure_anterior_horizontal
+    100242: L_lateral_fissure_anterior_vertical
+    100244: L_lateral_fissure_posterior
+    100246: L_lateral_occipito-temporal_sulcus
+    100248: L_lateral_orbital_sulcus
+    100250: L_Lateral_Sulcus
+    100252: L_lingual
+    100254: L_long_insular_gyrus_and_central_sulcus
+    100256: L_medial_occipitotemporal_and_lingual_sulci
+    100258: L_medial_orbital_sulcus-olfact
+    100260: L_middle_occipital_and_lunatus_sulci
+    100262: L_Middle_Temporal_Gyrus
+    100264: L_occipital_inferior
+    100266: L_Occipital_Lobe
+    100268: L_occipital_middle
+    100270: L_occipital_pole
+    100272: L_occipital_superior
+    100274: L_orbital
+    100276: L_orbital_sulci
+    100278: L_paracentral
+    100280: L_parahippocampal
+    100282: L_parietal_angular
+    100284: L_Parietal_Lobe
+    100286: L_parietal_superior
+    100288: L_parietal_supramarginal
+    100290: L_Parieto-Occipital_Sulcus
+    100292: L_parieto-occipital_sulcus
+    100294: L_pericallosal_sulcus
+    100296: L_postcentral
+    100298: L_postcentral_sulcus
+    100300: L_precentral
+    100302: L_Precentral_gyrus
+    100304: L_precentral_sulcus-inf-part
+    100306: L_precentral_sulcus-sup-part
+    100308: L_precuneus
+    100310: L_Premotor_Cortex
+    100312: L_rectus_gyrus
+    100314: L_Somatosensory_Cortex
+    100316: L_SSC
+    100318: L_subcallosal_gyrus
+    100320: L_subcentral
+    100322: L_suborbital_sulcus
+    100324: L_subparietal_sulcus
+    100326: L_sulcus_intermedius_primus
+    100328: L_superior_occipital_and_transverse_occipital_sulci
+    100330: L_Superior_Temporal_Gyrus
+    100332: L_temporal_anterior_transverse-Heschl
+    100334: L_temporal_inferior
+    100336: L_temporal_inferior_sulcus
+    100338: L_Temporal_Lobe
+    100340: L_temporal_middle
+    100342: L_temporal_pole
+    100344: L_temporal_superior.obj
+    100346: L_temporal_superior_lateral
+    100348: L_temporal_superior_polar
+    100350: L_temporal_superior_sulcus
+    100352: L_temporal_transverse_sulcus
+    100354: L_temporal_transverse_sulcus.001
+    100356: L_transverse_frontopolar
+    100358: L_Wernickes
+    100360: Lateral Ventricles
+    100362: Lateral Ventricles un
+    100364: Lateral Ventricles un_MeshPart0
+    100366: Lateral Ventricles un_MeshPart1
+    100368: Lateral Ventricles un_MeshPart2
+    100370: Lateral Ventricles un_MeshPart3
+    100372: Lateral Ventricles_FH
+    100374: Lateral Ventricles_OH
+    100376: Lateral Ventricles_Se
+    100378: Lateral Ventricles_TH
+    100380: Left Trigeminal N\
+    100382: Med Vestib Nucleus
+    100384: Mesh.002
+    100386: N_CNI
+    100388: N_CNII
+    100390: N_L_CN_VI
+    100392: N_L_CNIII
+    100394: N_L_CNIV
+    100396: N_L_CNIX
+    100398: N_L_CNV
+    100400: N_L_CNVII
+    100402: N_L_CNVIII
+    100404: N_L_CNX
+    100406: N_L_CNXI
+    100408: N_L_CNXII
+    100410: N_L_Short_Ciliary_Ganglion
+    100412: N_R_CN_VI
+    100414: N_R_CNIII
+    100416: N_R_CNIV
+    100418: N_R_CNIX
+    100420: N_R_CNV
+    100422: N_R_CNVII
+    100424: N_R_CNVIII
+    100426: N_R_CNX
+    100428: N_R_CNXI
+    100430: N_R_CNXII
+    100432: N_R_Short_Ciliary_Ganglion
+    100434: Nucleus Prepositus
+    100436: Oculomotor Nucleus
+    100438: Putamen
+    100440: R Cerebellum-Cortex
+    100442: R Vestibulocochlear N
+    100444: R_anterior_occipital_sulcus
+    100446: R_calcarine_sulcus
+    100448: R_central_insular
+    100450: R_Central_Sulcus
+    100452: R_central_sulcus
+    100454: R_cingulate_anterior
+    100456: R_cingulate_midanterior
+    100458: R_cingulate_posteriordorsal
+    100460: R_cingulate_posteriorventral
+    100462: R_cingulate_sulcus_marginalis
+    100464: R_circular_sulcus_insula_anterior
+    100466: R_circular_sulcus_insula_inferior
+    100468: R_circular_sulcus_insula_superior
+    100470: R_collateral_sulcus_transverse_anterior
+    100472: R_collateral_transverse_sulcus_posterior
+    100474: R_Cortex_final
+    100476: R_cortex_textured
+    100478: R_cuneus
+    100480: R_Frontal_Eye_Field
+    100482: R_frontal_inferior_operculum
+    100484: R_frontal_inferior_orbital
+    100486: R_frontal_inferior_sulcus
+    100488: R_frontal_inferior_triangularis
+    100490: R_Frontal_Lobe
+    100492: R_frontal_lobe
+    100494: R_frontal_lobe_MeshPart0
+    100496: R_frontal_lobe_MeshPart1
+    100498: R_frontal_lobe_MeshPart2
+    100500: R_frontal_lobe_MeshPart3
+    100502: R_frontal_middle_sulcus
+    100504: R_frontal_superior_sulcus
+    100506: R_frontal_superior_sulcus.001
+    100508: R_frontal_superior_sulcus.001_L_frontal_superior_sulcus.001
+    100510: R_frontomarginal
+    100512: R_fusiform
+    100514: R_Inferior_Temporal_Gyrus
+    100516: R_insular_short
+    100518: R_intraparietal_and_transverse_parietal_sulci
+    100520: R_lateral_fissure_anterior_horizontal
+    100522: R_lateral_fissure_anterior_vertical
+    100524: R_lateral_fissure_posterior
+    100526: R_lateral_occipito-temporal_sulcus
+    100528: R_lateral_orbital_sulcus
+    100530: R_Lateral_Sulcus
+    100532: R_lingual
+    100534: R_medial_occipitotemporal_and_lingual_sulci
+    100536: R_medial_orbital_sulcus-olfact
+    100538: R_middle_frontal
+    100540: R_middle_occipital_and_lunatus_sulci
+    100542: R_Middle_Temporal_Gyrus
+    100544: R_occipital_inferior
+    100546: R_Occipital_Lobe
+    100548: R_occipital_middle
+    100550: R_occipital_pole
+    100552: R_occipital_superior
+    100554: R_orbital
+    100556: R_orbital_sulci
+    100558: R_paracentral
+    100560: R_parahippocampal
+    100562: R_parietal_angular
+    100564: R_Parietal_Lobe
+    100566: R_parietal_superior
+    100568: R_parietal_supramarginal
+    100570: R_Parieto-Occipital_Sulcus
+    100572: R_parieto-occipital_sulcus
+    100574: R_pericallosal_sulcus
+    100576: R_postcentral
+    100578: R_Postcentral_Gyrus
+    100580: R_postcentral_sulcus
+    100582: R_precentral
+    100584: R_Precentral_G
+    100586: R_precentral_sulcus-inf-part
+    100588: R_precentral_sulcus-sup-part
+    100590: R_precuneus
+    100592: R_Premotor_Cortex
+    100594: R_rectus_gyrus
+    100596: R_SSC
+    100598: R_subcallosal_gyrus
+    100600: R_subcentral
+    100602: R_suborbital_sulcus
+    100604: R_subparietal_sulcus
+    100606: R_sulcus_intermedius_primus
+    100608: R_superior_frontal
+    100610: R_superior_occipital_and_transverse_occipital_sulci
+    100612: R_Superior_Temporal_Gyrus
+    100614: R_temporal_inferior
+    100616: R_temporal_inferior_sulcus
+    100618: R_Temporal_Lobe
+    100620: R_temporal_middle
+    100622: R_temporal_pole
+    100624: R_temporal_superior_lateral
+    100626: R_temporal_superior_polar
+    100628: R_temporal_superior_sulcus
+    100630: R_temporal_superior_temporoparietal
+    100632: R_temporal_superior_transverse
+    100634: R_transerverse_frontopolar
+    100636: Red Nucleus
+    100638: S_Basilar_Sinuses
+    100640: S_Inferior_Saggital_Sinus
+    100642: S_L_Cavernous_Sinus
+    100644: S_L_Inferior_Petrosal_Sinus
+    100646: S_L_Occipital_Sinus
+    100648: S_L_Sphenoparietal_sinus
+    100650: S_L_Superior_Petrosal_Sinus
+    100652: S_R_Cavernous_Sinus
+    100654: S_R_Inferior_Petrosal_Sinus
+    100656: S_R_Occipital_Sinus
+    100658: S_R_Sphenoparietal_sinus
+    100660: S_R_Superior_Petrosal_Sinus
+    100662: S_Superior_Saggital_Sinus
+    100664: Skull
+    100666: Spinal Cord Textured
+    100668: Spinal Nuclue CNV
+    100670: Sup Vestib Nucleus
+    100672: Superior Colliculi
+    100674: Superior Longit Fasic
+    100676: Thalamus
+    100678: Trochlear
+    100680: V_L_Internal_Jugular_Vein
+    100682: V_L_Middle_Meningeal_Vein
+    100684: V_L_Superior_Ophthalmic_Vein
+    100686: V_R_Internal_Jugular_Vein
+    100688: V_R_Middle_Meningeal_Vein
+    100690: V_Superior_Ophthalmic_Vein
+    100692: Vent Cochlear Nucleus
+    100694: White Matter
+    400000: 3rd Ventricle
+    400002: 4th Ventricle
+    400004: A_ASA
+    400006: A_Basilar_Artery
+    400008: A_L_ACA
+    400010: A_L_AICA
+    400012: A_L_Ascending_Pharyngeal_A_R_Ascending_Pharyngeal
+    400014: A_L_External_Carotid_A_R_External_Carotid
+    400016: A_L_Facial_Artery_A_R_Facial_Artery
+    400018: A_L_Internal_Carotid
+    400020: A_L_Labyrinthine
+    400022: A_L_Maxillary_Artery_A_R_Maxillary_Artery
+    400024: A_L_Maxillary_Artery_A_R_Maxillary_Artery_MeshPart0
+    400026: A_L_Maxillary_Artery_A_R_Maxillary_Artery_MeshPart1
+    400028: A_L_MCA
+    400030: A_L_Occipital_Artery_A_R_Occipital_Artery
+    400032: A_L_Ophthalmic_Artery
+    400034: A_L_PCA
+    400036: A_L_PICA
+    400038: A_L_Pontine_Artery
+    400040: A_L_Posterior_Auricular_Artery
+    400042: A_L_Posterior_Communicating_Artery
+    400044: A_L_PSA
+    400046: A_L_Superficial_Temporal_Artery
+    400048: A_L_Superior_Cerebellar
+    400050: A_L_Superior_Thyroid_Artery
+    400052: A_L_Vertebral_Artery
+    400054: A_R_ACA
+    400056: A_R_AICA
+    400058: A_R_Ascending_Pharyngeal
+    400060: A_R_External_Carotid
+    400062: A_R_Facial_Artery
+    400064: A_R_Internal_Carotid
+    400066: A_R_Labyrinthine
+    400068: A_R_Lingual_Artery
+    400070: A_R_Maxillary_Artery
+    400072: A_R_Maxillary_Artery_MeshPart0
+    400074: A_R_Maxillary_Artery_MeshPart1
+    400076: A_R_MCA
+    400078: A_R_Occipital_Artery
+    400080: A_R_Ophthalmic_Artery
+    400082: A_R_PCA
+    400084: A_R_PICA
+    400086: A_R_Pontine_Artery
+    400088: A_R_Posterior_Auricular_Artery
+    400090: A_R_Posterior_Communicating_Artery
+    400092: A_R_Posterior_Meningeal_Branch
+    400094: A_R_PSA
+    400096: A_R_Superficial_Temporal_Artery
+    400098: A_R_Superior_Cerebellar
+    400100: A_R_Superior_Thyroid_Artery
+    400102: A_R_Vertebral_Artery
+    400104: //RootNode
+    400106: Brainstem
+    400108: Caudate Nucleus
+    400110: Cavernous Sinus
+    400112: Central Canal
+    400114: Cerebellar Pedunc UT
+    400116: Cerebellar Peduncles
+    400118: Cerebellum- Vermis
+    400120: Cerebellum-White-Matter
+    400122: Cerebellum-White-Matter_MeshPart0
+    400124: Cerebellum-White-Matter_MeshPart1
+    400126: Cerebellum_Untitled.056
+    400128: Cerebellum_ut
+    400130: Cerebellum_ut_MeshPart0
+    400132: Cerebellum_ut_MeshPart1
+    400134: Cerebral Aqueduct
+    400136: Confluence of SInuses
+    400138: Corpus Callosum
+    400140: Corpus Callosum_Body
+    400142: Corpus Callosum_Genu
+    400144: Corpus Callosum_Splenium
+    400146: Cortex_L
+    400148: Cortex_L Old Text
+    400150: Cortex_R
+    400152: Cortex_R Old Text
+    400154: DorsalCochlearNuc.000
+    400156: DorsalCochlearNucleus
+    400158: EW Nucleus
+    400160: Fornix
+    400162: Globus Pallidus
+    400164: Hippocampus
+    400166: Hypothalamus
+    400168: Inf. Vestib Nucle.000
+    400170: Inf. Vestib Nucleus
+    400172: Inferior Colliculi
+    400174: Internal Capsule
+    400176: L Cerebellum- Cortex
+    400178: L_anterior_occipital_sulcus_preoccipital_notch
+    400180: L_Broca's Area
+    400182: L_calcarine_sulcus
+    400184: L_Central_Sulcus
+    400186: L_central_sulcus
+    400188: L_cingulate_anterior
+    400190: L_cingulate_midanterior
+    400192: L_cingulate_midposterior-Wernicke's
+    400194: L_cingulate_posteriordorsal
+    400196: L_cingulate_posteriorventral
+    400198: L_cingulate_sulcus_marginalis
+    400200: L_circular_sulcus_insula_anterior
+    400202: L_circular_sulcus_insula_inferior
+    400204: L_circular_sulcus_insula_superior
+    400206: L_Cortex_final
+    400208: L_Cortex_textured.001
+    400210: L_cuneus
+    400212: L_Frontal_EyeField
+    400214: L_frontal_inferior_operculum
+    400216: L_frontal_inferior_orbital
+    400218: L_frontal_inferior_sulcus
+    400220: L_frontal_inferior_triangularis-Brocas
+    400222: L_Frontal_Lobe
+    400224: L_frontal_middle
+    400226: L_frontal_middle_sulcus
+    400228: L_frontal_superior
+    400230: L_frontal_superior_sulcus
+    400232: L_fusiform
+    400234: L_Inferior_Temporal Gyrus
+    400236: L_insular_short
+    400238: L_intraparietal_and_transverse_parietal_sulci
+    400240: L_lateral_fissure_anterior_horizontal
+    400242: L_lateral_fissure_anterior_vertical
+    400244: L_lateral_fissure_posterior
+    400246: L_lateral_occipito-temporal_sulcus
+    400248: L_lateral_orbital_sulcus
+    400250: L_Lateral_Sulcus
+    400252: L_lingual
+    400254: L_long_insular_gyrus_and_central_sulcus
+    400256: L_medial_occipitotemporal_and_lingual_sulci
+    400258: L_medial_orbital_sulcus-olfact
+    400260: L_middle_occipital_and_lunatus_sulci
+    400262: L_Middle_Temporal_Gyrus
+    400264: L_occipital_inferior
+    400266: L_Occipital_Lobe
+    400268: L_occipital_middle
+    400270: L_occipital_pole
+    400272: L_occipital_superior
+    400274: L_orbital
+    400276: L_orbital_sulci
+    400278: L_paracentral
+    400280: L_parahippocampal
+    400282: L_parietal_angular
+    400284: L_Parietal_Lobe
+    400286: L_parietal_superior
+    400288: L_parietal_supramarginal
+    400290: L_Parieto-Occipital_Sulcus
+    400292: L_parieto-occipital_sulcus
+    400294: L_pericallosal_sulcus
+    400296: L_postcentral
+    400298: L_postcentral_sulcus
+    400300: L_precentral
+    400302: L_Precentral_gyrus
+    400304: L_precentral_sulcus-inf-part
+    400306: L_precentral_sulcus-sup-part
+    400308: L_precuneus
+    400310: L_Premotor_Cortex
+    400312: L_rectus_gyrus
+    400314: L_Somatosensory_Cortex
+    400316: L_SSC
+    400318: L_subcallosal_gyrus
+    400320: L_subcentral
+    400322: L_suborbital_sulcus
+    400324: L_subparietal_sulcus
+    400326: L_sulcus_intermedius_primus
+    400328: L_superior_occipital_and_transverse_occipital_sulci
+    400330: L_Superior_Temporal_Gyrus
+    400332: L_temporal_anterior_transverse-Heschl
+    400334: L_temporal_inferior
+    400336: L_temporal_inferior_sulcus
+    400338: L_Temporal_Lobe
+    400340: L_temporal_middle
+    400342: L_temporal_pole
+    400344: L_temporal_superior.obj
+    400346: L_temporal_superior_lateral
+    400348: L_temporal_superior_polar
+    400350: L_temporal_superior_sulcus
+    400352: L_temporal_transverse_sulcus
+    400354: L_temporal_transverse_sulcus.001
+    400356: L_transverse_frontopolar
+    400358: L_Wernickes
+    400360: Lateral Ventricles
+    400362: Lateral Ventricles un
+    400364: Lateral Ventricles un_MeshPart0
+    400366: Lateral Ventricles un_MeshPart1
+    400368: Lateral Ventricles un_MeshPart2
+    400370: Lateral Ventricles un_MeshPart3
+    400372: Lateral Ventricles_FH
+    400374: Lateral Ventricles_OH
+    400376: Lateral Ventricles_Se
+    400378: Lateral Ventricles_TH
+    400380: Left Trigeminal N\
+    400382: Med Vestib Nucleus
+    400384: Mesh.002
+    400386: N_CNI
+    400388: N_CNII
+    400390: N_L_CN_VI
+    400392: N_L_CNIII
+    400394: N_L_CNIV
+    400396: N_L_CNIX
+    400398: N_L_CNV
+    400400: N_L_CNVII
+    400402: N_L_CNVIII
+    400404: N_L_CNX
+    400406: N_L_CNXI
+    400408: N_L_CNXII
+    400410: N_L_Short_Ciliary_Ganglion
+    400412: N_R_CN_VI
+    400414: N_R_CNIII
+    400416: N_R_CNIV
+    400418: N_R_CNIX
+    400420: N_R_CNV
+    400422: N_R_CNVII
+    400424: N_R_CNVIII
+    400426: N_R_CNX
+    400428: N_R_CNXI
+    400430: N_R_CNXII
+    400432: N_R_Short_Ciliary_Ganglion
+    400434: Nucleus Prepositus
+    400436: Oculomotor Nucleus
+    400438: Putamen
+    400440: R Cerebellum-Cortex
+    400442: R Vestibulocochlear N
+    400444: R_anterior_occipital_sulcus
+    400446: R_calcarine_sulcus
+    400448: R_central_insular
+    400450: R_Central_Sulcus
+    400452: R_central_sulcus
+    400454: R_cingulate_anterior
+    400456: R_cingulate_midanterior
+    400458: R_cingulate_posteriordorsal
+    400460: R_cingulate_posteriorventral
+    400462: R_cingulate_sulcus_marginalis
+    400464: R_circular_sulcus_insula_anterior
+    400466: R_circular_sulcus_insula_inferior
+    400468: R_circular_sulcus_insula_superior
+    400470: R_collateral_sulcus_transverse_anterior
+    400472: R_collateral_transverse_sulcus_posterior
+    400474: R_Cortex_final
+    400476: R_cortex_textured
+    400478: R_cuneus
+    400480: R_Frontal_Eye_Field
+    400482: R_frontal_inferior_operculum
+    400484: R_frontal_inferior_orbital
+    400486: R_frontal_inferior_sulcus
+    400488: R_frontal_inferior_triangularis
+    400490: R_Frontal_Lobe
+    400492: R_frontal_lobe
+    400494: R_frontal_lobe_MeshPart0
+    400496: R_frontal_lobe_MeshPart1
+    400498: R_frontal_lobe_MeshPart2
+    400500: R_frontal_lobe_MeshPart3
+    400502: R_frontal_middle_sulcus
+    400504: R_frontal_superior_sulcus
+    400506: R_frontal_superior_sulcus.001
+    400508: R_frontal_superior_sulcus.001_L_frontal_superior_sulcus.001
+    400510: R_frontomarginal
+    400512: R_fusiform
+    400514: R_Inferior_Temporal_Gyrus
+    400516: R_insular_short
+    400518: R_intraparietal_and_transverse_parietal_sulci
+    400520: R_lateral_fissure_anterior_horizontal
+    400522: R_lateral_fissure_anterior_vertical
+    400524: R_lateral_fissure_posterior
+    400526: R_lateral_occipito-temporal_sulcus
+    400528: R_lateral_orbital_sulcus
+    400530: R_Lateral_Sulcus
+    400532: R_lingual
+    400534: R_medial_occipitotemporal_and_lingual_sulci
+    400536: R_medial_orbital_sulcus-olfact
+    400538: R_middle_frontal
+    400540: R_middle_occipital_and_lunatus_sulci
+    400542: R_Middle_Temporal_Gyrus
+    400544: R_occipital_inferior
+    400546: R_Occipital_Lobe
+    400548: R_occipital_middle
+    400550: R_occipital_pole
+    400552: R_occipital_superior
+    400554: R_orbital
+    400556: R_orbital_sulci
+    400558: R_paracentral
+    400560: R_parahippocampal
+    400562: R_parietal_angular
+    400564: R_Parietal_Lobe
+    400566: R_parietal_superior
+    400568: R_parietal_supramarginal
+    400570: R_Parieto-Occipital_Sulcus
+    400572: R_parieto-occipital_sulcus
+    400574: R_pericallosal_sulcus
+    400576: R_postcentral
+    400578: R_Postcentral_Gyrus
+    400580: R_postcentral_sulcus
+    400582: R_precentral
+    400584: R_Precentral_G
+    400586: R_precentral_sulcus-inf-part
+    400588: R_precentral_sulcus-sup-part
+    400590: R_precuneus
+    400592: R_Premotor_Cortex
+    400594: R_rectus_gyrus
+    400596: R_SSC
+    400598: R_subcallosal_gyrus
+    400600: R_subcentral
+    400602: R_suborbital_sulcus
+    400604: R_subparietal_sulcus
+    400606: R_sulcus_intermedius_primus
+    400608: R_superior_frontal
+    400610: R_superior_occipital_and_transverse_occipital_sulci
+    400612: R_Superior_Temporal_Gyrus
+    400614: R_temporal_inferior
+    400616: R_temporal_inferior_sulcus
+    400618: R_Temporal_Lobe
+    400620: R_temporal_middle
+    400622: R_temporal_pole
+    400624: R_temporal_superior_lateral
+    400626: R_temporal_superior_polar
+    400628: R_temporal_superior_sulcus
+    400630: R_temporal_superior_temporoparietal
+    400632: R_temporal_superior_transverse
+    400634: R_transerverse_frontopolar
+    400636: Red Nucleus
+    400638: S_Basilar_Sinuses
+    400640: S_Inferior_Saggital_Sinus
+    400642: S_L_Cavernous_Sinus
+    400644: S_L_Inferior_Petrosal_Sinus
+    400646: S_L_Occipital_Sinus
+    400648: S_L_Sphenoparietal_sinus
+    400650: S_L_Superior_Petrosal_Sinus
+    400652: S_R_Cavernous_Sinus
+    400654: S_R_Inferior_Petrosal_Sinus
+    400656: S_R_Occipital_Sinus
+    400658: S_R_Sphenoparietal_sinus
+    400660: S_R_Superior_Petrosal_Sinus
+    400662: S_Superior_Saggital_Sinus
+    400664: Skull
+    400666: Spinal Cord Textured
+    400668: Spinal Nuclue CNV
+    400670: Sup Vestib Nucleus
+    400672: Superior Colliculi
+    400674: Superior Longit Fasic
+    400676: Thalamus
+    400678: Trochlear
+    400680: V_L_Internal_Jugular_Vein
+    400682: V_L_Middle_Meningeal_Vein
+    400684: V_L_Superior_Ophthalmic_Vein
+    400686: V_R_Internal_Jugular_Vein
+    400688: V_R_Middle_Meningeal_Vein
+    400690: V_Superior_Ophthalmic_Vein
+    400692: Vent Cochlear Nucleus
+    400694: White Matter
+    2300000: 3rd Ventricle
+    2300002: 4th Ventricle
+    2300004: A_ASA
+    2300006: A_Basilar_Artery
+    2300008: A_L_ACA
+    2300010: A_L_AICA
+    2300012: A_L_Ascending_Pharyngeal_A_R_Ascending_Pharyngeal
+    2300014: A_L_External_Carotid_A_R_External_Carotid
+    2300016: A_L_Facial_Artery_A_R_Facial_Artery
+    2300018: A_L_Internal_Carotid
+    2300020: A_L_Labyrinthine
+    2300022: A_L_Maxillary_Artery_A_R_Maxillary_Artery_MeshPart0
+    2300024: A_L_Maxillary_Artery_A_R_Maxillary_Artery_MeshPart1
+    2300026: A_L_MCA
+    2300028: A_L_Occipital_Artery_A_R_Occipital_Artery
+    2300030: A_L_Ophthalmic_Artery
+    2300032: A_L_PCA
+    2300034: A_L_PICA
+    2300036: A_L_Pontine_Artery
+    2300038: A_L_Posterior_Auricular_Artery
+    2300040: A_L_Posterior_Communicating_Artery
+    2300042: A_L_PSA
+    2300044: A_L_Superficial_Temporal_Artery
+    2300046: A_L_Superior_Cerebellar
+    2300048: A_L_Superior_Thyroid_Artery
+    2300050: A_L_Vertebral_Artery
+    2300052: A_R_ACA
+    2300054: A_R_AICA
+    2300056: A_R_Ascending_Pharyngeal
+    2300058: A_R_External_Carotid
+    2300060: A_R_Facial_Artery
+    2300062: A_R_Internal_Carotid
+    2300064: A_R_Labyrinthine
+    2300066: A_R_Lingual_Artery
+    2300068: A_R_Maxillary_Artery_MeshPart0
+    2300070: A_R_Maxillary_Artery_MeshPart1
+    2300072: A_R_MCA
+    2300074: A_R_Occipital_Artery
+    2300076: A_R_Ophthalmic_Artery
+    2300078: A_R_PCA
+    2300080: A_R_PICA
+    2300082: A_R_Pontine_Artery
+    2300084: A_R_Posterior_Auricular_Artery
+    2300086: A_R_Posterior_Communicating_Artery
+    2300088: A_R_Posterior_Meningeal_Branch
+    2300090: A_R_PSA
+    2300092: A_R_Superficial_Temporal_Artery
+    2300094: A_R_Superior_Cerebellar
+    2300096: A_R_Superior_Thyroid_Artery
+    2300098: A_R_Vertebral_Artery
+    2300100: Brainstem
+    2300102: Caudate Nucleus
+    2300104: Cavernous Sinus
+    2300106: Central Canal
+    2300108: Cerebellar Pedunc UT
+    2300110: Cerebellar Peduncles
+    2300112: Cerebellum- Vermis
+    2300114: Cerebellum-White-Matter_MeshPart0
+    2300116: Cerebellum-White-Matter_MeshPart1
+    2300118: Cerebellum_Untitled.056
+    2300120: Cerebellum_ut_MeshPart0
+    2300122: Cerebellum_ut_MeshPart1
+    2300124: Cerebral Aqueduct
+    2300126: Confluence of SInuses
+    2300128: Corpus Callosum
+    2300130: Corpus Callosum_Body
+    2300132: Corpus Callosum_Genu
+    2300134: Corpus Callosum_Splenium
+    2300136: Cortex_L
+    2300138: Cortex_L Old Text
+    2300140: Cortex_R
+    2300142: Cortex_R Old Text
+    2300144: DorsalCochlearNuc.000
+    2300146: DorsalCochlearNucleus
+    2300148: EW Nucleus
+    2300150: Fornix
+    2300152: Globus Pallidus
+    2300154: Hippocampus
+    2300156: Hypothalamus
+    2300158: Inf. Vestib Nucle.000
+    2300160: Inf. Vestib Nucleus
+    2300162: Inferior Colliculi
+    2300164: Internal Capsule
+    2300166: L Cerebellum- Cortex
+    2300168: L_anterior_occipital_sulcus_preoccipital_notch
+    2300170: L_Broca's Area
+    2300172: L_calcarine_sulcus
+    2300174: L_Central_Sulcus
+    2300176: L_central_sulcus
+    2300178: L_cingulate_anterior
+    2300180: L_cingulate_midanterior
+    2300182: L_cingulate_midposterior-Wernicke's
+    2300184: L_cingulate_posteriordorsal
+    2300186: L_cingulate_posteriorventral
+    2300188: L_cingulate_sulcus_marginalis
+    2300190: L_circular_sulcus_insula_anterior
+    2300192: L_circular_sulcus_insula_inferior
+    2300194: L_circular_sulcus_insula_superior
+    2300196: L_Cortex_final
+    2300198: L_Cortex_textured.001
+    2300200: L_cuneus
+    2300202: L_Frontal_EyeField
+    2300204: L_frontal_inferior_operculum
+    2300206: L_frontal_inferior_orbital
+    2300208: L_frontal_inferior_sulcus
+    2300210: L_frontal_inferior_triangularis-Brocas
+    2300212: L_Frontal_Lobe
+    2300214: L_frontal_middle
+    2300216: L_frontal_middle_sulcus
+    2300218: L_frontal_superior
+    2300220: L_frontal_superior_sulcus
+    2300222: L_fusiform
+    2300224: L_Inferior_Temporal Gyrus
+    2300226: L_insular_short
+    2300228: L_intraparietal_and_transverse_parietal_sulci
+    2300230: L_lateral_fissure_anterior_horizontal
+    2300232: L_lateral_fissure_anterior_vertical
+    2300234: L_lateral_fissure_posterior
+    2300236: L_lateral_occipito-temporal_sulcus
+    2300238: L_lateral_orbital_sulcus
+    2300240: L_Lateral_Sulcus
+    2300242: L_lingual
+    2300244: L_long_insular_gyrus_and_central_sulcus
+    2300246: L_medial_occipitotemporal_and_lingual_sulci
+    2300248: L_medial_orbital_sulcus-olfact
+    2300250: L_middle_occipital_and_lunatus_sulci
+    2300252: L_Middle_Temporal_Gyrus
+    2300254: L_occipital_inferior
+    2300256: L_Occipital_Lobe
+    2300258: L_occipital_middle
+    2300260: L_occipital_pole
+    2300262: L_occipital_superior
+    2300264: L_orbital
+    2300266: L_orbital_sulci
+    2300268: L_paracentral
+    2300270: L_parahippocampal
+    2300272: L_parietal_angular
+    2300274: L_Parietal_Lobe
+    2300276: L_parietal_superior
+    2300278: L_parietal_supramarginal
+    2300280: L_Parieto-Occipital_Sulcus
+    2300282: L_parieto-occipital_sulcus
+    2300284: L_pericallosal_sulcus
+    2300286: L_postcentral
+    2300288: L_postcentral_sulcus
+    2300290: L_precentral
+    2300292: L_Precentral_gyrus
+    2300294: L_precentral_sulcus-inf-part
+    2300296: L_precentral_sulcus-sup-part
+    2300298: L_precuneus
+    2300300: L_Premotor_Cortex
+    2300302: L_rectus_gyrus
+    2300304: L_Somatosensory_Cortex
+    2300306: L_SSC
+    2300308: L_subcallosal_gyrus
+    2300310: L_subcentral
+    2300312: L_suborbital_sulcus
+    2300314: L_subparietal_sulcus
+    2300316: L_sulcus_intermedius_primus
+    2300318: L_superior_occipital_and_transverse_occipital_sulci
+    2300320: L_Superior_Temporal_Gyrus
+    2300322: L_temporal_anterior_transverse-Heschl
+    2300324: L_temporal_inferior
+    2300326: L_temporal_inferior_sulcus
+    2300328: L_Temporal_Lobe
+    2300330: L_temporal_middle
+    2300332: L_temporal_pole
+    2300334: L_temporal_superior.obj
+    2300336: L_temporal_superior_lateral
+    2300338: L_temporal_superior_polar
+    2300340: L_temporal_superior_sulcus
+    2300342: L_temporal_transverse_sulcus
+    2300344: L_temporal_transverse_sulcus.001
+    2300346: L_transverse_frontopolar
+    2300348: L_Wernickes
+    2300350: Lateral Ventricles
+    2300352: Lateral Ventricles un_MeshPart0
+    2300354: Lateral Ventricles un_MeshPart1
+    2300356: Lateral Ventricles un_MeshPart2
+    2300358: Lateral Ventricles un_MeshPart3
+    2300360: Lateral Ventricles_FH
+    2300362: Lateral Ventricles_OH
+    2300364: Lateral Ventricles_Se
+    2300366: Lateral Ventricles_TH
+    2300368: Left Trigeminal N\
+    2300370: Med Vestib Nucleus
+    2300372: Mesh.002
+    2300374: N_CNI
+    2300376: N_CNII
+    2300378: N_L_CN_VI
+    2300380: N_L_CNIII
+    2300382: N_L_CNIV
+    2300384: N_L_CNIX
+    2300386: N_L_CNV
+    2300388: N_L_CNVII
+    2300390: N_L_CNVIII
+    2300392: N_L_CNX
+    2300394: N_L_CNXI
+    2300396: N_L_CNXII
+    2300398: N_L_Short_Ciliary_Ganglion
+    2300400: N_R_CN_VI
+    2300402: N_R_CNIII
+    2300404: N_R_CNIV
+    2300406: N_R_CNIX
+    2300408: N_R_CNV
+    2300410: N_R_CNVII
+    2300412: N_R_CNVIII
+    2300414: N_R_CNX
+    2300416: N_R_CNXI
+    2300418: N_R_CNXII
+    2300420: N_R_Short_Ciliary_Ganglion
+    2300422: Nucleus Prepositus
+    2300424: Oculomotor Nucleus
+    2300426: Putamen
+    2300428: R Cerebellum-Cortex
+    2300430: R Vestibulocochlear N
+    2300432: R_anterior_occipital_sulcus
+    2300434: R_calcarine_sulcus
+    2300436: R_central_insular
+    2300438: R_Central_Sulcus
+    2300440: R_central_sulcus
+    2300442: R_cingulate_anterior
+    2300444: R_cingulate_midanterior
+    2300446: R_cingulate_posteriordorsal
+    2300448: R_cingulate_posteriorventral
+    2300450: R_cingulate_sulcus_marginalis
+    2300452: R_circular_sulcus_insula_anterior
+    2300454: R_circular_sulcus_insula_inferior
+    2300456: R_circular_sulcus_insula_superior
+    2300458: R_collateral_sulcus_transverse_anterior
+    2300460: R_collateral_transverse_sulcus_posterior
+    2300462: R_Cortex_final
+    2300464: R_cortex_textured
+    2300466: R_cuneus
+    2300468: R_Frontal_Eye_Field
+    2300470: R_frontal_inferior_operculum
+    2300472: R_frontal_inferior_orbital
+    2300474: R_frontal_inferior_sulcus
+    2300476: R_frontal_inferior_triangularis
+    2300478: R_Frontal_Lobe
+    2300480: R_frontal_lobe_MeshPart0
+    2300482: R_frontal_lobe_MeshPart1
+    2300484: R_frontal_lobe_MeshPart2
+    2300486: R_frontal_lobe_MeshPart3
+    2300488: R_frontal_middle_sulcus
+    2300490: R_frontal_superior_sulcus
+    2300492: R_frontal_superior_sulcus.001
+    2300494: R_frontal_superior_sulcus.001_L_frontal_superior_sulcus.001
+    2300496: R_frontomarginal
+    2300498: R_fusiform
+    2300500: R_Inferior_Temporal_Gyrus
+    2300502: R_insular_short
+    2300504: R_intraparietal_and_transverse_parietal_sulci
+    2300506: R_lateral_fissure_anterior_horizontal
+    2300508: R_lateral_fissure_anterior_vertical
+    2300510: R_lateral_fissure_posterior
+    2300512: R_lateral_occipito-temporal_sulcus
+    2300514: R_lateral_orbital_sulcus
+    2300516: R_Lateral_Sulcus
+    2300518: R_lingual
+    2300520: R_medial_occipitotemporal_and_lingual_sulci
+    2300522: R_medial_orbital_sulcus-olfact
+    2300524: R_middle_frontal
+    2300526: R_middle_occipital_and_lunatus_sulci
+    2300528: R_Middle_Temporal_Gyrus
+    2300530: R_occipital_inferior
+    2300532: R_Occipital_Lobe
+    2300534: R_occipital_middle
+    2300536: R_occipital_pole
+    2300538: R_occipital_superior
+    2300540: R_orbital
+    2300542: R_orbital_sulci
+    2300544: R_paracentral
+    2300546: R_parahippocampal
+    2300548: R_parietal_angular
+    2300550: R_Parietal_Lobe
+    2300552: R_parietal_superior
+    2300554: R_parietal_supramarginal
+    2300556: R_Parieto-Occipital_Sulcus
+    2300558: R_parieto-occipital_sulcus
+    2300560: R_pericallosal_sulcus
+    2300562: R_postcentral
+    2300564: R_Postcentral_Gyrus
+    2300566: R_postcentral_sulcus
+    2300568: R_precentral
+    2300570: R_Precentral_G
+    2300572: R_precentral_sulcus-inf-part
+    2300574: R_precentral_sulcus-sup-part
+    2300576: R_precuneus
+    2300578: R_Premotor_Cortex
+    2300580: R_rectus_gyrus
+    2300582: R_SSC
+    2300584: R_subcallosal_gyrus
+    2300586: R_subcentral
+    2300588: R_suborbital_sulcus
+    2300590: R_subparietal_sulcus
+    2300592: R_sulcus_intermedius_primus
+    2300594: R_superior_frontal
+    2300596: R_superior_occipital_and_transverse_occipital_sulci
+    2300598: R_Superior_Temporal_Gyrus
+    2300600: R_temporal_inferior
+    2300602: R_temporal_inferior_sulcus
+    2300604: R_Temporal_Lobe
+    2300606: R_temporal_middle
+    2300608: R_temporal_pole
+    2300610: R_temporal_superior_lateral
+    2300612: R_temporal_superior_polar
+    2300614: R_temporal_superior_sulcus
+    2300616: R_temporal_superior_temporoparietal
+    2300618: R_temporal_superior_transverse
+    2300620: R_transerverse_frontopolar
+    2300622: Red Nucleus
+    2300624: S_Basilar_Sinuses
+    2300626: S_Inferior_Saggital_Sinus
+    2300628: S_L_Cavernous_Sinus
+    2300630: S_L_Inferior_Petrosal_Sinus
+    2300632: S_L_Occipital_Sinus
+    2300634: S_L_Sphenoparietal_sinus
+    2300636: S_L_Superior_Petrosal_Sinus
+    2300638: S_R_Cavernous_Sinus
+    2300640: S_R_Inferior_Petrosal_Sinus
+    2300642: S_R_Occipital_Sinus
+    2300644: S_R_Sphenoparietal_sinus
+    2300646: S_R_Superior_Petrosal_Sinus
+    2300648: S_Superior_Saggital_Sinus
+    2300650: Skull
+    2300652: Spinal Cord Textured
+    2300654: Spinal Nuclue CNV
+    2300656: Sup Vestib Nucleus
+    2300658: Superior Colliculi
+    2300660: Superior Longit Fasic
+    2300662: Thalamus
+    2300664: Trochlear
+    2300666: V_L_Internal_Jugular_Vein
+    2300668: V_L_Middle_Meningeal_Vein
+    2300670: V_L_Superior_Ophthalmic_Vein
+    2300672: V_R_Internal_Jugular_Vein
+    2300674: V_R_Middle_Meningeal_Vein
+    2300676: V_Superior_Ophthalmic_Vein
+    2300678: Vent Cochlear Nucleus
+    2300680: White Matter
+    3300000: 3rd Ventricle
+    3300002: 4th Ventricle
+    3300004: A_ASA
+    3300006: A_Basilar_Artery
+    3300008: A_L_ACA
+    3300010: A_L_AICA
+    3300012: A_L_Ascending_Pharyngeal_A_R_Ascending_Pharyngeal
+    3300014: A_L_External_Carotid_A_R_External_Carotid
+    3300016: A_L_Facial_Artery_A_R_Facial_Artery
+    3300018: A_L_Internal_Carotid
+    3300020: A_L_Labyrinthine
+    3300022: A_L_Maxillary_Artery_A_R_Maxillary_Artery_MeshPart0
+    3300024: A_L_Maxillary_Artery_A_R_Maxillary_Artery_MeshPart1
+    3300026: A_L_MCA
+    3300028: A_L_Occipital_Artery_A_R_Occipital_Artery
+    3300030: A_L_Ophthalmic_Artery
+    3300032: A_L_PCA
+    3300034: A_L_PICA
+    3300036: A_L_Pontine_Artery
+    3300038: A_L_Posterior_Auricular_Artery
+    3300040: A_L_Posterior_Communicating_Artery
+    3300042: A_L_PSA
+    3300044: A_L_Superficial_Temporal_Artery
+    3300046: A_L_Superior_Cerebellar
+    3300048: A_L_Superior_Thyroid_Artery
+    3300050: A_L_Vertebral_Artery
+    3300052: A_R_ACA
+    3300054: A_R_AICA
+    3300056: A_R_Ascending_Pharyngeal
+    3300058: A_R_External_Carotid
+    3300060: A_R_Facial_Artery
+    3300062: A_R_Internal_Carotid
+    3300064: A_R_Labyrinthine
+    3300066: A_R_Lingual_Artery
+    3300068: A_R_Maxillary_Artery_MeshPart0
+    3300070: A_R_Maxillary_Artery_MeshPart1
+    3300072: A_R_MCA
+    3300074: A_R_Occipital_Artery
+    3300076: A_R_Ophthalmic_Artery
+    3300078: A_R_PCA
+    3300080: A_R_PICA
+    3300082: A_R_Pontine_Artery
+    3300084: A_R_Posterior_Auricular_Artery
+    3300086: A_R_Posterior_Communicating_Artery
+    3300088: A_R_Posterior_Meningeal_Branch
+    3300090: A_R_PSA
+    3300092: A_R_Superficial_Temporal_Artery
+    3300094: A_R_Superior_Cerebellar
+    3300096: A_R_Superior_Thyroid_Artery
+    3300098: A_R_Vertebral_Artery
+    3300100: Brainstem
+    3300102: Caudate Nucleus
+    3300104: Cavernous Sinus
+    3300106: Central Canal
+    3300108: Cerebellar Pedunc UT
+    3300110: Cerebellar Peduncles
+    3300112: Cerebellum- Vermis
+    3300114: Cerebellum-White-Matter_MeshPart0
+    3300116: Cerebellum-White-Matter_MeshPart1
+    3300118: Cerebellum_Untitled.056
+    3300120: Cerebellum_ut_MeshPart0
+    3300122: Cerebellum_ut_MeshPart1
+    3300124: Cerebral Aqueduct
+    3300126: Confluence of SInuses
+    3300128: Corpus Callosum
+    3300130: Corpus Callosum_Body
+    3300132: Corpus Callosum_Genu
+    3300134: Corpus Callosum_Splenium
+    3300136: Cortex_L
+    3300138: Cortex_L Old Text
+    3300140: Cortex_R
+    3300142: Cortex_R Old Text
+    3300144: DorsalCochlearNuc.000
+    3300146: DorsalCochlearNucleus
+    3300148: EW Nucleus
+    3300150: Fornix
+    3300152: Globus Pallidus
+    3300154: Hippocampus
+    3300156: Hypothalamus
+    3300158: Inf. Vestib Nucle.000
+    3300160: Inf. Vestib Nucleus
+    3300162: Inferior Colliculi
+    3300164: Internal Capsule
+    3300166: L Cerebellum- Cortex
+    3300168: L_anterior_occipital_sulcus_preoccipital_notch
+    3300170: L_Broca's Area
+    3300172: L_calcarine_sulcus
+    3300174: L_Central_Sulcus
+    3300176: L_central_sulcus
+    3300178: L_cingulate_anterior
+    3300180: L_cingulate_midanterior
+    3300182: L_cingulate_midposterior-Wernicke's
+    3300184: L_cingulate_posteriordorsal
+    3300186: L_cingulate_posteriorventral
+    3300188: L_cingulate_sulcus_marginalis
+    3300190: L_circular_sulcus_insula_anterior
+    3300192: L_circular_sulcus_insula_inferior
+    3300194: L_circular_sulcus_insula_superior
+    3300196: L_Cortex_final
+    3300198: L_Cortex_textured.001
+    3300200: L_cuneus
+    3300202: L_Frontal_EyeField
+    3300204: L_frontal_inferior_operculum
+    3300206: L_frontal_inferior_orbital
+    3300208: L_frontal_inferior_sulcus
+    3300210: L_frontal_inferior_triangularis-Brocas
+    3300212: L_Frontal_Lobe
+    3300214: L_frontal_middle
+    3300216: L_frontal_middle_sulcus
+    3300218: L_frontal_superior
+    3300220: L_frontal_superior_sulcus
+    3300222: L_fusiform
+    3300224: L_Inferior_Temporal Gyrus
+    3300226: L_insular_short
+    3300228: L_intraparietal_and_transverse_parietal_sulci
+    3300230: L_lateral_fissure_anterior_horizontal
+    3300232: L_lateral_fissure_anterior_vertical
+    3300234: L_lateral_fissure_posterior
+    3300236: L_lateral_occipito-temporal_sulcus
+    3300238: L_lateral_orbital_sulcus
+    3300240: L_Lateral_Sulcus
+    3300242: L_lingual
+    3300244: L_long_insular_gyrus_and_central_sulcus
+    3300246: L_medial_occipitotemporal_and_lingual_sulci
+    3300248: L_medial_orbital_sulcus-olfact
+    3300250: L_middle_occipital_and_lunatus_sulci
+    3300252: L_Middle_Temporal_Gyrus
+    3300254: L_occipital_inferior
+    3300256: L_Occipital_Lobe
+    3300258: L_occipital_middle
+    3300260: L_occipital_pole
+    3300262: L_occipital_superior
+    3300264: L_orbital
+    3300266: L_orbital_sulci
+    3300268: L_paracentral
+    3300270: L_parahippocampal
+    3300272: L_parietal_angular
+    3300274: L_Parietal_Lobe
+    3300276: L_parietal_superior
+    3300278: L_parietal_supramarginal
+    3300280: L_Parieto-Occipital_Sulcus
+    3300282: L_parieto-occipital_sulcus
+    3300284: L_pericallosal_sulcus
+    3300286: L_postcentral
+    3300288: L_postcentral_sulcus
+    3300290: L_precentral
+    3300292: L_Precentral_gyrus
+    3300294: L_precentral_sulcus-inf-part
+    3300296: L_precentral_sulcus-sup-part
+    3300298: L_precuneus
+    3300300: L_Premotor_Cortex
+    3300302: L_rectus_gyrus
+    3300304: L_Somatosensory_Cortex
+    3300306: L_SSC
+    3300308: L_subcallosal_gyrus
+    3300310: L_subcentral
+    3300312: L_suborbital_sulcus
+    3300314: L_subparietal_sulcus
+    3300316: L_sulcus_intermedius_primus
+    3300318: L_superior_occipital_and_transverse_occipital_sulci
+    3300320: L_Superior_Temporal_Gyrus
+    3300322: L_temporal_anterior_transverse-Heschl
+    3300324: L_temporal_inferior
+    3300326: L_temporal_inferior_sulcus
+    3300328: L_Temporal_Lobe
+    3300330: L_temporal_middle
+    3300332: L_temporal_pole
+    3300334: L_temporal_superior.obj
+    3300336: L_temporal_superior_lateral
+    3300338: L_temporal_superior_polar
+    3300340: L_temporal_superior_sulcus
+    3300342: L_temporal_transverse_sulcus
+    3300344: L_temporal_transverse_sulcus.001
+    3300346: L_transverse_frontopolar
+    3300348: L_Wernickes
+    3300350: Lateral Ventricles
+    3300352: Lateral Ventricles un_MeshPart0
+    3300354: Lateral Ventricles un_MeshPart1
+    3300356: Lateral Ventricles un_MeshPart2
+    3300358: Lateral Ventricles un_MeshPart3
+    3300360: Lateral Ventricles_FH
+    3300362: Lateral Ventricles_OH
+    3300364: Lateral Ventricles_Se
+    3300366: Lateral Ventricles_TH
+    3300368: Left Trigeminal N\
+    3300370: Med Vestib Nucleus
+    3300372: Mesh.002
+    3300374: N_CNI
+    3300376: N_CNII
+    3300378: N_L_CN_VI
+    3300380: N_L_CNIII
+    3300382: N_L_CNIV
+    3300384: N_L_CNIX
+    3300386: N_L_CNV
+    3300388: N_L_CNVII
+    3300390: N_L_CNVIII
+    3300392: N_L_CNX
+    3300394: N_L_CNXI
+    3300396: N_L_CNXII
+    3300398: N_L_Short_Ciliary_Ganglion
+    3300400: N_R_CN_VI
+    3300402: N_R_CNIII
+    3300404: N_R_CNIV
+    3300406: N_R_CNIX
+    3300408: N_R_CNV
+    3300410: N_R_CNVII
+    3300412: N_R_CNVIII
+    3300414: N_R_CNX
+    3300416: N_R_CNXI
+    3300418: N_R_CNXII
+    3300420: N_R_Short_Ciliary_Ganglion
+    3300422: Nucleus Prepositus
+    3300424: Oculomotor Nucleus
+    3300426: Putamen
+    3300428: R Cerebellum-Cortex
+    3300430: R Vestibulocochlear N
+    3300432: R_anterior_occipital_sulcus
+    3300434: R_calcarine_sulcus
+    3300436: R_central_insular
+    3300438: R_Central_Sulcus
+    3300440: R_central_sulcus
+    3300442: R_cingulate_anterior
+    3300444: R_cingulate_midanterior
+    3300446: R_cingulate_posteriordorsal
+    3300448: R_cingulate_posteriorventral
+    3300450: R_cingulate_sulcus_marginalis
+    3300452: R_circular_sulcus_insula_anterior
+    3300454: R_circular_sulcus_insula_inferior
+    3300456: R_circular_sulcus_insula_superior
+    3300458: R_collateral_sulcus_transverse_anterior
+    3300460: R_collateral_transverse_sulcus_posterior
+    3300462: R_Cortex_final
+    3300464: R_cortex_textured
+    3300466: R_cuneus
+    3300468: R_Frontal_Eye_Field
+    3300470: R_frontal_inferior_operculum
+    3300472: R_frontal_inferior_orbital
+    3300474: R_frontal_inferior_sulcus
+    3300476: R_frontal_inferior_triangularis
+    3300478: R_Frontal_Lobe
+    3300480: R_frontal_lobe_MeshPart0
+    3300482: R_frontal_lobe_MeshPart1
+    3300484: R_frontal_lobe_MeshPart2
+    3300486: R_frontal_lobe_MeshPart3
+    3300488: R_frontal_middle_sulcus
+    3300490: R_frontal_superior_sulcus
+    3300492: R_frontal_superior_sulcus.001
+    3300494: R_frontal_superior_sulcus.001_L_frontal_superior_sulcus.001
+    3300496: R_frontomarginal
+    3300498: R_fusiform
+    3300500: R_Inferior_Temporal_Gyrus
+    3300502: R_insular_short
+    3300504: R_intraparietal_and_transverse_parietal_sulci
+    3300506: R_lateral_fissure_anterior_horizontal
+    3300508: R_lateral_fissure_anterior_vertical
+    3300510: R_lateral_fissure_posterior
+    3300512: R_lateral_occipito-temporal_sulcus
+    3300514: R_lateral_orbital_sulcus
+    3300516: R_Lateral_Sulcus
+    3300518: R_lingual
+    3300520: R_medial_occipitotemporal_and_lingual_sulci
+    3300522: R_medial_orbital_sulcus-olfact
+    3300524: R_middle_frontal
+    3300526: R_middle_occipital_and_lunatus_sulci
+    3300528: R_Middle_Temporal_Gyrus
+    3300530: R_occipital_inferior
+    3300532: R_Occipital_Lobe
+    3300534: R_occipital_middle
+    3300536: R_occipital_pole
+    3300538: R_occipital_superior
+    3300540: R_orbital
+    3300542: R_orbital_sulci
+    3300544: R_paracentral
+    3300546: R_parahippocampal
+    3300548: R_parietal_angular
+    3300550: R_Parietal_Lobe
+    3300552: R_parietal_superior
+    3300554: R_parietal_supramarginal
+    3300556: R_Parieto-Occipital_Sulcus
+    3300558: R_parieto-occipital_sulcus
+    3300560: R_pericallosal_sulcus
+    3300562: R_postcentral
+    3300564: R_Postcentral_Gyrus
+    3300566: R_postcentral_sulcus
+    3300568: R_precentral
+    3300570: R_Precentral_G
+    3300572: R_precentral_sulcus-inf-part
+    3300574: R_precentral_sulcus-sup-part
+    3300576: R_precuneus
+    3300578: R_Premotor_Cortex
+    3300580: R_rectus_gyrus
+    3300582: R_SSC
+    3300584: R_subcallosal_gyrus
+    3300586: R_subcentral
+    3300588: R_suborbital_sulcus
+    3300590: R_subparietal_sulcus
+    3300592: R_sulcus_intermedius_primus
+    3300594: R_superior_frontal
+    3300596: R_superior_occipital_and_transverse_occipital_sulci
+    3300598: R_Superior_Temporal_Gyrus
+    3300600: R_temporal_inferior
+    3300602: R_temporal_inferior_sulcus
+    3300604: R_Temporal_Lobe
+    3300606: R_temporal_middle
+    3300608: R_temporal_pole
+    3300610: R_temporal_superior_lateral
+    3300612: R_temporal_superior_polar
+    3300614: R_temporal_superior_sulcus
+    3300616: R_temporal_superior_temporoparietal
+    3300618: R_temporal_superior_transverse
+    3300620: R_transerverse_frontopolar
+    3300622: Red Nucleus
+    3300624: S_Basilar_Sinuses
+    3300626: S_Inferior_Saggital_Sinus
+    3300628: S_L_Cavernous_Sinus
+    3300630: S_L_Inferior_Petrosal_Sinus
+    3300632: S_L_Occipital_Sinus
+    3300634: S_L_Sphenoparietal_sinus
+    3300636: S_L_Superior_Petrosal_Sinus
+    3300638: S_R_Cavernous_Sinus
+    3300640: S_R_Inferior_Petrosal_Sinus
+    3300642: S_R_Occipital_Sinus
+    3300644: S_R_Sphenoparietal_sinus
+    3300646: S_R_Superior_Petrosal_Sinus
+    3300648: S_Superior_Saggital_Sinus
+    3300650: Skull
+    3300652: Spinal Cord Textured
+    3300654: Spinal Nuclue CNV
+    3300656: Sup Vestib Nucleus
+    3300658: Superior Colliculi
+    3300660: Superior Longit Fasic
+    3300662: Thalamus
+    3300664: Trochlear
+    3300666: V_L_Internal_Jugular_Vein
+    3300668: V_L_Middle_Meningeal_Vein
+    3300670: V_L_Superior_Ophthalmic_Vein
+    3300672: V_R_Internal_Jugular_Vein
+    3300674: V_R_Middle_Meningeal_Vein
+    3300676: V_Superior_Ophthalmic_Vein
+    3300678: Vent Cochlear Nucleus
+    3300680: White Matter
+    4300000: Brainstem
+    4300002: Skull
+    4300004: N_R_CNIX
+    4300006: A_R_ACA
+    4300008: N_CNII
+    4300010: N_R_Short_Ciliary_Ganglion
+    4300012: N_CNI
+    4300014: N_R_CNV
+    4300016: S_R_Sphenoparietal_sinus
+    4300018: A_R_Posterior_Communicating_Artery
+    4300020: A_R_Lingual_Artery
+    4300022: S_L_Cavernous_Sinus
+    4300024: N_L_CNVII
+    4300026: N_L_CNX
+    4300028: A_R_Pontine_Artery
+    4300030: A_L_Superficial_Temporal_Artery
+    4300032: A_R_Vertebral_Artery
+    4300034: N_L_CNIX
+    4300036: N_R_CNX
+    4300038: A_L_Occipital_Artery_A_R_Occipital_Artery
+    4300040: A_R_Posterior_Meningeal_Branch
+    4300042: A_R_Ophthalmic_Artery
+    4300044: V_Superior_Ophthalmic_Vein
+    4300046: A_R_AICA
+    4300048: A_R_PICA
+    4300050: A_L_PCA
+    4300052: N_L_CN_VI
+    4300054: A_L_Internal_Carotid
+    4300056: A_L_ACA
+    4300058: N_R_CNIV
+    4300060: S_Basilar_Sinuses
+    4300062: N_R_CNXII
+    4300064: A_R_PCA
+    4300066: A_R_Maxillary_Artery_MeshPart0
+    4300068: A_R_Maxillary_Artery_MeshPart1
+    4300070: A_L_Ascending_Pharyngeal_A_R_Ascending_Pharyngeal
+    4300072: A_R_Facial_Artery
+    4300074: S_L_Inferior_Petrosal_Sinus
+    4300076: N_L_CNIII
+    4300078: S_L_Sphenoparietal_sinus
+    4300080: V_R_Middle_Meningeal_Vein
+    4300082: V_L_Superior_Ophthalmic_Vein
+    4300084: S_Inferior_Saggital_Sinus
+    4300086: A_L_PICA
+    4300088: N_L_CNV
+    4300090: A_L_PSA
+    4300092: A_L_Ophthalmic_Artery
+    4300094: A_L_AICA
+    4300096: A_R_Occipital_Artery
+    4300098: A_L_Facial_Artery_A_R_Facial_Artery
+    4300100: A_Basilar_Artery
+    4300102: N_L_CNIV
+    4300104: S_R_Inferior_Petrosal_Sinus
+    4300106: A_L_MCA
+    4300108: V_L_Middle_Meningeal_Vein
+    4300110: A_R_Superficial_Temporal_Artery
+    4300112: A_L_Superior_Thyroid_Artery
+    4300114: N_R_CNIII
+    4300116: A_R_External_Carotid
+    4300118: A_ASA
+    4300120: A_R_Internal_Carotid
+    4300122: N_R_CNVII
+    4300124: S_R_Superior_Petrosal_Sinus
+    4300126: S_Superior_Saggital_Sinus
+    4300128: A_R_PSA
+    4300130: A_L_Labyrinthine
+    4300132: A_L_Posterior_Communicating_Artery
+    4300134: A_L_Maxillary_Artery_A_R_Maxillary_Artery_MeshPart0
+    4300136: A_L_Maxillary_Artery_A_R_Maxillary_Artery_MeshPart1
+    4300138: A_L_External_Carotid_A_R_External_Carotid
+    4300140: A_R_MCA
+    4300142: V_R_Internal_Jugular_Vein
+    4300144: N_L_CNXI
+    4300146: N_R_CNVIII
+    4300148: N_L_CNVIII
+    4300150: V_L_Internal_Jugular_Vein
+    4300152: A_R_Superior_Cerebellar
+    4300154: S_L_Occipital_Sinus
+    4300156: A_R_Posterior_Auricular_Artery
+    4300158: A_L_Vertebral_Artery
+    4300160: N_R_CN_VI
+    4300162: A_L_Pontine_Artery
+    4300164: N_L_CNXII
+    4300166: A_L_Posterior_Auricular_Artery
+    4300168: N_R_CNXI
+    4300170: A_R_Labyrinthine
+    4300172: A_R_Superior_Thyroid_Artery
+    4300174: S_R_Occipital_Sinus
+    4300176: S_R_Cavernous_Sinus
+    4300178: A_L_Superior_Cerebellar
+    4300180: A_R_Ascending_Pharyngeal
+    4300182: S_L_Superior_Petrosal_Sinus
+    4300184: N_L_Short_Ciliary_Ganglion
+    4300186: Cerebellum- Vermis
+    4300188: Cerebellum-White-Matter_MeshPart0
+    4300190: Cerebellum-White-Matter_MeshPart1
+    4300192: L Cerebellum- Cortex
+    4300194: R Cerebellum-Cortex
+    4300196: L_Inferior_Temporal Gyrus
+    4300198: L_Middle_Temporal_Gyrus
+    4300200: L_Superior_Temporal_Gyrus
+    4300202: R_Inferior_Temporal_Gyrus
+    4300204: R_Middle_Temporal_Gyrus
+    4300206: R_Superior_Temporal_Gyrus
+    4300208: R_Parieto-Occipital_Sulcus
+    4300210: R_Lateral_Sulcus
+    4300212: L_Parieto-Occipital_Sulcus
+    4300214: L_Lateral_Sulcus
+    4300216: L_Central_Sulcus
+    4300218: R_Central_Sulcus
+    4300220: R_Postcentral_Gyrus
+    4300222: R_Frontal_Eye_Field
+    4300224: R_Premotor_Cortex
+    4300226: R_Precentral_G
+    4300228: L_Somatosensory_Cortex
+    4300230: L_Wernickes
+    4300232: L_Broca's Area
+    4300234: L_Frontal_EyeField
+    4300236: L_Premotor_Cortex
+    4300238: L_Precentral_gyrus
+    4300240: L_Temporal_Lobe
+    4300242: L_Occipital_Lobe
+    4300244: L_Frontal_Lobe
+    4300246: L_Parietal_Lobe
+    4300248: R_Parietal_Lobe
+    4300250: R_Frontal_Lobe
+    4300252: R_Occipital_Lobe
+    4300254: R_Temporal_Lobe
+    4300256: R_frontal_lobe_MeshPart0
+    4300258: R_frontal_lobe_MeshPart1
+    4300260: R_frontal_lobe_MeshPart2
+    4300262: R_frontal_lobe_MeshPart3
+    4300264: R_frontal_superior_sulcus.001_L_frontal_superior_sulcus.001
+    4300266: R_frontal_superior_sulcus.001
+    4300268: Cerebellum_Untitled.056
+    4300270: R_Cortex_final
+    4300272: L_Cortex_final
+    4300274: L_Cortex_textured.001
+    4300276: R_cortex_textured
+    4300278: L_transverse_frontopolar
+    4300280: L_temporal_transverse_sulcus
+    4300282: L_temporal_superior_sulcus
+    4300284: L_temporal_superior_polar
+    4300286: L_temporal_superior_lateral
+    4300288: L_temporal_superior.obj
+    4300290: L_temporal_pole
+    4300292: L_temporal_middle
+    4300294: L_temporal_inferior_sulcus
+    4300296: L_temporal_inferior
+    4300298: L_temporal_anterior_transverse-Heschl
+    4300300: L_superior_occipital_and_transverse_occipital_sulci
+    4300302: L_frontal_superior
+    4300304: L_sulcus_intermedius_primus
+    4300306: L_subparietal_sulcus
+    4300308: L_suborbital_sulcus
+    4300310: L_subcentral
+    4300312: L_subcallosal_gyrus
+    4300314: L_rectus_gyrus
+    4300316: L_precuneus
+    4300318: L_precentral_sulcus-sup-part
+    4300320: L_precentral_sulcus-inf-part
+    4300322: L_precentral
+    4300324: L_postcentral_sulcus
+    4300326: L_postcentral
+    4300328: L_pericallosal_sulcus
+    4300330: L_parieto-occipital_sulcus
+    4300332: L_parietal_supramarginal
+    4300334: L_parietal_superior
+    4300336: L_parietal_angular
+    4300338: L_parahippocampal
+    4300340: L_paracentral
+    4300342: L_orbital_sulci
+    4300344: L_orbital
+    4300346: L_occipital_superior
+    4300348: L_occipital_pole
+    4300350: L_occipital_middle
+    4300352: L_occipital_inferior
+    4300354: L_middle_occipital_and_lunatus_sulci
+    4300356: L_frontal_middle
+    4300358: L_medial_orbital_sulcus-olfact
+    4300360: L_medial_occipitotemporal_and_lingual_sulci
+    4300362: L_long_insular_gyrus_and_central_sulcus
+    4300364: L_lingual
+    4300366: L_lateral_orbital_sulcus
+    4300368: L_lateral_occipito-temporal_sulcus
+    4300370: L_lateral_fissure_posterior
+    4300372: L_lateral_fissure_anterior_vertical
+    4300374: L_lateral_fissure_anterior_horizontal
+    4300376: L_intraparietal_and_transverse_parietal_sulci
+    4300378: L_insular_short
+    4300380: L_fusiform
+    4300382: L_frontal_superior_sulcus
+    4300384: L_frontal_middle_sulcus
+    4300386: L_frontal_inferior_triangularis-Brocas
+    4300388: L_frontal_inferior_sulcus
+    4300390: L_frontal_inferior_orbital
+    4300392: L_frontal_inferior_operculum
+    4300394: L_cuneus
+    4300396: L_circular_sulcus_insula_superior
+    4300398: L_circular_sulcus_insula_inferior
+    4300400: L_circular_sulcus_insula_anterior
+    4300402: L_cingulate_sulcus_marginalis
+    4300404: L_cingulate_posteriorventral
+    4300406: L_cingulate_posteriordorsal
+    4300408: L_cingulate_midposterior-Wernicke's
+    4300410: L_cingulate_midanterior
+    4300412: L_cingulate_anterior
+    4300414: L_central_sulcus
+    4300416: L_calcarine_sulcus
+    4300418: L_anterior_occipital_sulcus_preoccipital_notch
+    4300420: R_transerverse_frontopolar
+    4300422: L_temporal_transverse_sulcus.001
+    4300424: R_temporal_superior_transverse
+    4300426: R_temporal_superior_temporoparietal
+    4300428: R_temporal_superior_sulcus
+    4300430: R_temporal_superior_polar
+    4300432: R_temporal_superior_lateral
+    4300434: R_temporal_pole
+    4300436: R_temporal_middle
+    4300438: R_temporal_inferior_sulcus
+    4300440: R_temporal_inferior
+    4300442: R_superior_occipital_and_transverse_occipital_sulci
+    4300444: R_sulcus_intermedius_primus
+    4300446: R_subparietal_sulcus
+    4300448: R_suborbital_sulcus
+    4300450: R_subcentral
+    4300452: R_subcallosal_gyrus
+    4300454: R_rectus_gyrus
+    4300456: R_precuneus
+    4300458: R_precentral_sulcus-sup-part
+    4300460: R_precentral_sulcus-inf-part
+    4300462: R_precentral
+    4300464: R_postcentral_sulcus
+    4300466: R_postcentral
+    4300468: R_pericallosal_sulcus
+    4300470: R_parieto-occipital_sulcus
+    4300472: R_parietal_supramarginal
+    4300474: R_parietal_superior
+    4300476: R_parietal_angular
+    4300478: R_parahippocampal
+    4300480: R_paracentral
+    4300482: R_orbital_sulci
+    4300484: R_orbital
+    4300486: R_occipital_superior
+    4300488: R_occipital_pole
+    4300490: R_occipital_middle
+    4300492: R_occipital_inferior
+    4300494: R_middle_occipital_and_lunatus_sulci
+    4300496: R_medial_orbital_sulcus-olfact
+    4300498: R_medial_occipitotemporal_and_lingual_sulci
+    4300500: R_lingual
+    4300502: R_lateral_orbital_sulcus
+    4300504: R_lateral_occipito-temporal_sulcus
+    4300506: R_lateral_fissure_posterior
+    4300508: R_lateral_fissure_anterior_vertical
+    4300510: R_lateral_fissure_anterior_horizontal
+    4300512: R_intraparietal_and_transverse_parietal_sulci
+    4300514: R_insular_short
+    4300516: R_fusiform
+    4300518: R_frontomarginal
+    4300520: R_frontal_superior_sulcus
+    4300522: R_superior_frontal
+    4300524: R_frontal_middle_sulcus
+    4300526: R_middle_frontal
+    4300528: R_frontal_inferior_triangularis
+    4300530: R_frontal_inferior_sulcus
+    4300532: R_frontal_inferior_orbital
+    4300534: R_frontal_inferior_operculum
+    4300536: R_cuneus
+    4300538: R_collateral_transverse_sulcus_posterior
+    4300540: R_collateral_sulcus_transverse_anterior
+    4300542: R_circular_sulcus_insula_superior
+    4300544: R_circular_sulcus_insula_inferior
+    4300546: R_circular_sulcus_insula_anterior
+    4300548: R_cingulate_sulcus_marginalis
+    4300550: R_cingulate_posteriorventral
+    4300552: R_cingulate_posteriordorsal
+    4300554: R_cingulate_midanterior
+    4300556: R_cingulate_anterior
+    4300558: R_central_sulcus
+    4300560: R_central_insular
+    4300562: R_calcarine_sulcus
+    4300564: R_anterior_occipital_sulcus
+    4300566: R_SSC
+    4300568: L_SSC
+    4300570: Cerebellar Peduncles
+    4300572: Cortex_R
+    4300574: Cortex_L
+    4300576: Superior Longit Fasic
+    4300578: Central Canal
+    4300580: Lateral Ventricles_OH
+    4300582: Lateral Ventricles_TH
+    4300584: Lateral Ventricles_FH
+    4300586: Lateral Ventricles_Se
+    4300588: Corpus Callosum_Splenium
+    4300590: Corpus Callosum_Genu
+    4300592: Corpus Callosum_Body
+    4300594: White Matter
+    4300596: 3rd Ventricle
+    4300598: Lateral Ventricles
+    4300600: Internal Capsule
+    4300602: Hypothalamus
+    4300604: Hippocampus
+    4300606: Fornix
+    4300608: Cerebellum_ut_MeshPart0
+    4300610: Cerebellum_ut_MeshPart1
+    4300612: Cerebral Aqueduct
+    4300614: 4th Ventricle
+    4300616: Putamen
+    4300618: Globus Pallidus
+    4300620: Caudate Nucleus
+    4300622: Cortex_R Old Text
+    4300624: Mesh.002
+    4300626: Spinal Cord Textured
+    4300628: Lateral Ventricles un_MeshPart0
+    4300630: Lateral Ventricles un_MeshPart1
+    4300632: Lateral Ventricles un_MeshPart2
+    4300634: Lateral Ventricles un_MeshPart3
+    4300636: Cortex_L Old Text
+    4300638: R Vestibulocochlear N
+    4300640: Left Trigeminal N\
+    4300642: Corpus Callosum
+    4300644: Inferior Colliculi
+    4300646: Superior Colliculi
+    4300648: Thalamus
+    4300650: Cerebellar Pedunc UT
+    4300652: Confluence of SInuses
+    4300654: Cavernous Sinus
+    4300656: DorsalCochlearNuc.000
+    4300658: Inf. Vestib Nucle.000
+    4300660: Vent Cochlear Nucleus
+    4300662: Trochlear
+    4300664: Sup Vestib Nucleus
+    4300666: Spinal Nuclue CNV
+    4300668: Red Nucleus
+    4300670: Oculomotor Nucleus
+    4300672: Nucleus Prepositus
+    4300674: Med Vestib Nucleus
+    4300676: Inf. Vestib Nucleus
+    4300678: EW Nucleus
+    4300680: DorsalCochlearNucleus
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1135 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ScenarioSim.Core.Entities</name>
+    </assembly>
+    <members>
+        <member name="T:ScenarioSim.Core.Entities.DynamicFittsTaskValues">
+            <summary>
+            Represents the task values for a fitts' task that is defined at run time.
+            </summary>
+            <seealso cref="T:ScenarioSim.Core.Entities.TaskValues" />
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.DynamicFittsTaskValues.ParameterName">
+            <summary>
+            Gets or sets the name of the parameter.
+            </summary>
+            <value>
+            The name of the parameter.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.DynamicFittsTaskValues.EventName">
+            <summary>
+            Gets or sets the name of the event.
+            </summary>
+            <value>
+            The name of the event.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.DynamicFittsTaskValues.Target">
+            <summary>
+            Gets or sets the target.
+            </summary>
+            <value>
+            The target.
+            </value>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.Event">
+            <summary>
+            The base class for all actions.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Event.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Event.Description">
+            <summary>
+            Gets or sets the description.
+            </summary>
+            <value>
+            The description.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Event.Timestamp">
+            <summary>
+            Gets or sets the timestamp.
+            </summary>
+            <value>
+            The timestamp.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Event.Parameters">
+            <summary>
+            Gets or sets the performer action parameters.
+            </summary>
+            <value>
+            The performer action parameters.
+            </value>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Event.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:ScenarioSim.Core.Entities.Event"/> class.
+            </summary>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Event.AddParameter(System.String,ScenarioSim.Core.Entities.EventParameter)">
+            <summary>
+            Adds the parameter.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="parameter">The parameter.</param>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.Actor">
+            <summary>
+            This class represents an actor that performs a scenario.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Actor.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Actor.Description">
+            <summary>
+            Gets or sets the description.
+            </summary>
+            <value>
+            The description.
+            </value>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.Asset">
+            <summary>
+            Represents an item that can be placed into scenarios.
+            </summary>
+            <seealso cref="T:ScenarioSim.Core.Entities.Entity" />
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Asset.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Asset.Description">
+            <summary>
+            Gets or sets the description.
+            </summary>
+            <value>
+            The description.
+            </value>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.CompositeTask">
+            <summary>
+            Represents a task that is composed of child tasks.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.CompositeTask.Tasks">
+            <summary>
+            Gets or sets the sub tasks.
+            </summary>
+            <value>
+            The sub tasks.
+            </value>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.CompositeTask.GetTaskTreeNode">
+            <summary>
+            Gets the task tree node.
+            </summary>
+            <returns>
+            A task tree node based on this task.
+            </returns>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.Entity">
+            <summary>
+            Represents an entity that has an identifier.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Entity.Id">
+            <summary>
+            Gets or sets the identifier.
+            </summary>
+            <value>
+            The identifier.
+            </value>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Entity.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object" />, is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object" /> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Entity.Equals(ScenarioSim.Core.Entities.Entity)">
+            <summary>
+            Equalses the specified other.
+            </summary>
+            <param name="other">The other.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Entity.GetHashCode">
+            <summary>
+            Returns a hash code for this instance.
+            </summary>
+            <returns>
+            A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table. 
+            </returns>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.FittsTaskValues">
+            <summary>
+            Represents task data values specific to a Fitts task.
+            </summary>
+            <seealso cref="T:ScenarioSim.Core.Entities.TaskValues" />
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.FittsTaskValues.D">
+            <summary>
+            Gets the D parameter.
+            </summary>
+            <value>
+            The D parameter in the Fitts' Law equation.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.FittsTaskValues.W">
+            <summary>
+            Gets the W parameter.
+            </summary>
+            <value>
+            The W parameter in the Fitts' Law equation.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.FittsTaskValues.IndexOfDifficulty">
+            <summary>
+            Gets the index of difficulty.
+            </summary>
+            <value>
+            The index of difficulty.
+            </value>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.FittsTaskValues.#ctor(System.Single,System.Single)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ScenarioSim.Core.Entities.FittsTaskValues"/> class.
+            </summary>
+            <param name="d">The d.</param>
+            <param name="w">The w.</param>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.GoalCompletedEvent">
+            <summary>
+            An event that represents that a goal was completed.
+            </summary>
+            <seealso cref="T:ScenarioSim.Core.Entities.Event" />
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.GoalCompletedEvent.TaskId">
+            <summary>
+            Gets or sets the task identifier.
+            </summary>
+            <value>
+            The task identifier of the task that is completed.
+            </value>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.ParallelTask">
+            <summary>
+            Represents a task that composed of subtasks that are executed at the same time.
+            </summary>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.Program">
+            <summary>
+            Represents a set of scenarios to be performed by a user.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Program.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Program.ScenarioIds">
+            <summary>
+            Gets or sets the scenarios.
+            </summary>
+            <value>
+            The scenarios.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Program.Description">
+            <summary>
+            Gets or sets the description.
+            </summary>
+            <value>
+            The description.
+            </value>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Program.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:ScenarioSim.Core.Entities.Program"/> class.
+            </summary>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.Quaternion">
+            <summary>
+            Represents a mathematical quaternion.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Quaternion.X">
+            <summary>
+            Gets or sets the x.
+            </summary>
+            <value>
+            The x.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Quaternion.Y">
+            <summary>
+            Gets or sets the y.
+            </summary>
+            <value>
+            The y.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Quaternion.Z">
+            <summary>
+            Gets or sets the z.
+            </summary>
+            <value>
+            The z.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Quaternion.W">
+            <summary>
+            Gets or sets the w.
+            </summary>
+            <value>
+            The w.
+            </value>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Quaternion.#ctor(System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ScenarioSim.Core.Entities.Quaternion"/> class.
+            </summary>
+            <param name="x">The x.</param>
+            <param name="y">The y.</param>
+            <param name="z">The z.</param>
+            <param name="w">The w.</param>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.RandomReactionTaskValues">
+            <summary>
+            Task values for a reaction task that has random delay values.
+            </summary>
+            <seealso cref="T:ScenarioSim.Core.Entities.TaskValues" />
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.RandomReactionTaskValues.MeanDelay">
+            <summary>
+            Gets or sets the mean delay.
+            </summary>
+            <value>
+            The mean delay.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.RandomReactionTaskValues.VarianceDelay">
+            <summary>
+            Gets or sets the variance delay.
+            </summary>
+            <value>
+            The variance delay.
+            </value>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.ReactionTaskValues">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.ReactionTaskValues.Delay">
+            <summary>
+            Gets the delay.
+            </summary>
+            <value>
+            The delay.
+            </value>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.ReactionTaskValues.#ctor(System.Single)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ScenarioSim.Core.Entities.ReactionTaskValues"/> class.
+            </summary>
+            <param name="delay">The delay.</param>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.ScenarioEvent">
+            <summary>
+            Represents an event that arises during a scenario that causes complications and increases
+            difficulty of the task.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.ScenarioEvent.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.ScenarioAsset">
+            <summary>
+            Represents a phyiscal entity in the scenario.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.ScenarioAsset.Transform">
+            <summary>
+            The Transform of the entity.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.ScenarioAsset.AssetId">
+            <summary>
+            Gets or sets the asset identifier.
+            </summary>
+            <value>
+            The asset identifier.
+            </value>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.EventParameter">
+            <summary>
+            Represents a parameter to be included with scenario events.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.EventParameter.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.EventParameter.Value">
+            <summary>
+            Gets or sets the value.
+            </summary>
+            <value>
+            The value.
+            </value>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.EventParameter.ToString">
+            <summary>
+            Returns a <see cref="T:System.String" /> that represents this instance.
+            </summary>
+            <returns>
+            A <see cref="T:System.String" /> that represents this instance.
+            </returns>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.Scenario">
+            <summary>
+            Represents a scenario that contains a task hierarchy, complications and entities.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Scenario.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Scenario.SchemaId">
+            <summary>
+            Gets or sets the schema identifier.
+            </summary>
+            <value>
+            The schema identifier.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Scenario.Schema">
+            <summary>
+            Gets or sets the schema.
+            </summary>
+            <value>
+            The schema.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Scenario.Task">
+            <summary>
+            Gets the task.
+            </summary>
+            <value>
+            The task.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Scenario.TaskTransitions">
+            <summary>
+            Gets the task transitions.
+            </summary>
+            <value>
+            The task transitions.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Scenario.TaskTree">
+            <summary>
+            Gets the task tree.
+            </summary>
+            <value>
+            The task tree.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Scenario.ScenarioEvents">
+            <summary>
+            Gets the scenario events.
+            </summary>
+            <value>
+            The scenario events.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Scenario.ScenarioAssets">
+            <summary>
+            Gets the scenario assets.
+            </summary>
+            <value>
+            The scenario assets.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Scenario.ScenarioTaskDefinitions">
+            <summary>
+            Gets or sets the scenario task definitions.
+            </summary>
+            <value>
+            The scenario task definitions.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Scenario.ScenarioSpecificTasks">
+            <summary>
+            Gets the scenario specific tasks.
+            </summary>
+            <value>
+            The scenario specific tasks.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Scenario.Description">
+            <summary>
+            Gets or sets the description.
+            </summary>
+            <value>
+            The description.
+            </value>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Scenario.CopyScenarioSpecificTaskValues(ScenarioSim.Core.Entities.Task)">
+            <summary>
+            Copies the scenario specific task values.
+            </summary>
+            <param name="task">The task.</param>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.ScenarioTaskDefinition">
+            <summary>
+            Represents the scenario specific task definition.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.ScenarioTaskDefinition.ScenarioId">
+            <summary>
+            Gets or sets the scenario identifier.
+            </summary>
+            <value>
+            The scenario identifier.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.ScenarioTaskDefinition.TaskId">
+            <summary>
+            Gets or sets the task identifier.
+            </summary>
+            <value>
+            The task identifier.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.ScenarioTaskDefinition.TaskValues">
+            <summary>
+            Gets or sets the task values.
+            </summary>
+            <value>
+            The task values.
+            </value>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.Schema">
+            <summary>
+            Represents a plan or abstract scenario.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Schema.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Schema.Description">
+            <summary>
+            Gets or sets the description.
+            </summary>
+            <value>
+            The description.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Schema.Scenarios">
+            <summary>
+            Gets or sets the scenarios.
+            </summary>
+            <value>
+            The scenarios.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Schema.TaskId">
+            <summary>
+            Gets or sets the task identifier.
+            </summary>
+            <value>
+            The task identifier.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Schema.Task">
+            <summary>
+            Gets the task.
+            </summary>
+            <value>
+            The task.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Schema.TaskTransitions">
+            <summary>
+            Gets the task transitions.
+            </summary>
+            <value>
+            The task transitions.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Schema.TaskTree">
+            <summary>
+            Gets the task tree.
+            </summary>
+            <value>
+            The task tree.
+            </value>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.SimulatorEvent">
+            <summary>
+            Represents an event invoked by the simulator.
+            </summary>
+            <seealso cref="T:ScenarioSim.Core.Entities.Event" />
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.SteeringTaskValues">
+            <summary>
+            Represents the task data values of a steering task.
+            </summary>
+            <seealso cref="T:ScenarioSim.Core.Entities.TaskValues" />
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.SteeringTaskValues.A">
+            <summary>
+            Gets A.
+            </summary>
+            <value>
+            The length of the tunnel.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.SteeringTaskValues.W">
+            <summary>
+            Gets W.
+            </summary>
+            <value>
+            The width of the tunnel.
+            </value>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.SteeringTaskValues.#ctor(System.Single,System.Single)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ScenarioSim.Core.Entities.SteeringTaskValues"/> class.
+            </summary>
+            <param name="a">The length of the tunnel.</param>
+            <param name="w">The width of the tunnel.</param>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.TaskPerformanceValues">
+            <summary>
+            Represents the values of a task performance.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.TaskPerformanceValues.ElapsedTime">
+            <summary>
+            Gets or sets the elapsed time.
+            </summary>
+            <value>
+            The elapsed time to complete the task in milliseconds.
+            </value>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.TaskValues">
+            <summary>
+            Represents a structure that holds data specific to the type of task.
+            </summary>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.PerformerAction">
+            <summary>
+            Represents an event that occurs during a scenario performance.
+            </summary>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.ScenarioPerformance">
+            <summary>
+            The performance of a scenario performance.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.ScenarioPerformance.StartTime">
+            <summary>
+            Gets or sets the start time.
+            </summary>
+            <value>
+            The start time.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.ScenarioPerformance.EndTime">
+            <summary>
+            Gets or sets the end time.
+            </summary>
+            <value>
+            The end time.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.ScenarioPerformance.Scenario">
+            <summary>
+            The scenario that was performed.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.ScenarioPerformance.PerformerId">
+            <summary>
+            Gets or sets the performer identifier.
+            </summary>
+            <value>
+            The performer identifier.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.ScenarioPerformance.Performer">
+            <summary>
+            Gets or sets the performer.
+            </summary>
+            <value>
+            The performer.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.ScenarioPerformance.TaskPerformances">
+            <summary>
+            Gets or sets the task performances.
+            </summary>
+            <value>
+            The task performances.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.ScenarioPerformance.TaskPerformanceTree">
+            <summary>
+            Gets the task performance tree.
+            </summary>
+            <value>
+            The task performance tree.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.ScenarioPerformance.Events">
+            <summary>
+            Gets or sets the user actions.
+            </summary>
+            <value>
+            The user actions.
+            </value>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.ScenarioPerformance.BuildTaskPerfomanceTree(ScenarioSim.Core.Entities.TreeNode{ScenarioSim.Core.Entities.Task})">
+            <summary>
+            Builds the task perfomance tree.
+            </summary>
+            <param name="taskTree">The task tree.</param>
+            <returns></returns>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.Task">
+            <summary>
+            The task class represents a task that is to be performed by an actor in 
+            a scenario.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Task.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>
+            The name of the task.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Task.ActorId">
+            <summary>
+            Gets or sets the actor identifier.
+            </summary>
+            <value>
+            The actor identifier.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Task.Actor">
+            <summary>
+            Gets or sets the actor.
+            </summary>
+            <value>
+            The actor responsible for completing this task.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Task.TaskValues">
+            <summary>
+            Gets or sets the task values.
+            </summary>
+            <value>
+            The task values.
+            </value>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Task.GetTaskTreeNode">
+            <summary>
+            Gets the task tree node.
+            </summary>
+            <returns>A task tree node based on this task.</returns>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.TaskDependantScenarioEvent">
+            <summary>
+            Represents a complication that is triggered when a task is started or finished.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.TaskDependantScenarioEvent.TaskId">
+            <summary>
+            The task that the complication depends on.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.TaskDependantScenarioEvent.Entry">
+            <summary>
+            Determines if the complication is triggered at the start of a task. 
+            </summary>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.TaskPerformance">
+            <summary>
+            This class represents the results from a performance of a given task.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.TaskPerformance.TaskId">
+            <summary>
+            Gets or sets the task identifier.
+            </summary>
+            <value>
+            The task identifier.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.TaskPerformance.Task">
+            <summary>
+            Gets or sets the task.
+            </summary>
+            <value>
+            The task.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.TaskPerformance.Timestamp">
+            <summary>
+            Gets or sets the timestamp.
+            </summary>
+            <value>
+            The timestamp.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.TaskPerformance.Performer">
+            <summary>
+            Gets or sets the user.
+            </summary>
+            <value>
+            The user that performed this task.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.TaskPerformance.TaskPerformanceValues">
+            <summary>
+            Gets or sets the task performance values.
+            </summary>
+            <value>
+            The task performance values.
+            </value>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.TaskTransition">
+            <summary>
+            A task transition represents a transition from one task to another
+            in a flow chart. It contains the source task, destination task and the 
+            identification of the event that triggers this transition in the state chart
+            representation.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.TaskTransition.SchemaId">
+            <summary>
+            Gets or sets the schema identifier.
+            </summary>
+            <value>
+            The schema identifier.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.TaskTransition.SourceId">
+            <summary>
+            Gets or sets the source identifier.
+            </summary>
+            <value>
+            The source identifier.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.TaskTransition.DestinationId">
+            <summary>
+            Gets or sets the destination identifier.
+            </summary>
+            <value>
+            The destination identifier.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.TaskTransition.PerformerActionId">
+            <summary>
+            Gets or sets the performer action identifier.
+            </summary>
+            <value>
+            The performer action identifier.
+            </value>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.Transform">
+            <summary>
+            A structure that represents the geometrical placement of an object. This
+            includes its position, rotation and scaling.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Transform.Position">
+            <summary>
+            The position component of the Transform.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Transform.Rotation">
+            <summary>
+            The rotation component of the Transform.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Transform.Scale">
+            <summary>
+            The scaling component of the Transform.
+            </summary>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Transform.#ctor(ScenarioSim.Core.Entities.Vector3f,ScenarioSim.Core.Entities.Vector3f,ScenarioSim.Core.Entities.Vector3f)">
+            <summary>
+            A constructor that takes in three vectors to assign to the components.
+            </summary>
+            <param name="position">The vector to assign to the position component.</param>
+            <param name="rotation">The vector to assign to the rotation component.</param>
+            <param name="scale">The vector to assign to the scale component.</param>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Transform.ToString">
+            <summary>
+            Gives a string representation fo the Transform.
+            </summary>
+            <returns>A string representation of the Transform.</returns>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.TreeNode`1">
+            <summary>
+            This class represents a node in N-ary tree structure. It is generic
+            and can store any type as the data for the node. The node consists of
+            the data (Generic), the Children nodes (Of same type) and the parent node.
+            </summary>
+            <typeparam name="T">The type of the value for the node.</typeparam>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.TreeNode`1.Children">
+            <summary>
+            A list of direct Children nodes of this tree node.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.TreeNode`1.Value">
+            <summary>
+            The data being held at this tree node.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.TreeNode`1.Parent">
+            <summary>
+            The parent of this tree node. Note: This field is not serialized
+            into Xml, because it would cause a loop in the Xml generation.
+            </summary>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.TreeNode`1.#ctor">
+            <summary>
+            Default contructor. This constructor is mainly used by the
+            serializer. It is better to use the constructor that takes 
+            the data value.
+            </summary>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.TreeNode`1.#ctor(`0)">
+            <summary>
+            A constructor that takes in the data value to be held by 
+            this node.
+            </summary>
+            <param name="data">The data to be held in this tree node.</param>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.TreeNode`1.AppendChild(`0)">
+            <summary>
+            Creates a tree node with the given data and adds the node to 
+            the end collection of Children nodes.
+            </summary>
+            <param name="child">The data of the child node to be created.</param>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.TreeNode`1.AppendChild(ScenarioSim.Core.Entities.TreeNode{`0})">
+            <summary>
+            Adds the given tree node to the end of the collection of child nodes.
+            </summary>
+            <param name="child">The child node to be added.</param>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.TreeNode`1.InsertChild(System.Int32,`0)">
+            <summary>
+            Creates a tree node with the given data and inserts the node into 
+            the given index of the collection of Children nodes.
+            </summary>
+            <param name="index">The index of the Children where the child will be inserted.</param>
+            <param name="child">The data of the child node to be created.</param>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.TreeNode`1.InsertChild(System.Int32,ScenarioSim.Core.Entities.TreeNode{`0})">
+            <summary>
+            Inserts the given tree node into the given index of the collection of child nodes.
+            </summary>
+            <param name="index">The index of the Children where the child will be inserted.</param>
+            <param name="child">The child tree node.</param>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.TreeNode`1.RemoveChild(ScenarioSim.Core.Entities.TreeNode{`0})">
+            <summary>
+            Removes the given tree node from the collection of Children.
+            </summary>
+            <param name="child">The child node to be removed from its parent.</param>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.TreeNode`1.Traverse(System.Action{`0})">
+            <summary>
+            A pre-order traversal that applies the given action to each child node 
+            in the tree.
+            </summary>
+            <param name="action">The action to be performed on each node during traversal.</param>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.Performer">
+            <summary>
+            The user that has performed a scenario.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Performer.ScenarioPerformances">
+            <summary>
+            Gets or sets the scenario performances.
+            </summary>
+            <value>
+            The scenario performances.
+            </value>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Performer.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="T:ScenarioSim.Core.Entities.Vector3f">
+            <summary>
+            This structure represents a three dimensional vector that holds
+            floating point precision values.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Vector3f.X">
+            <summary>
+            The X component of the vector.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Vector3f.Y">
+            <summary>
+            The Y component of the vector.
+            </summary>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Vector3f.Z">
+            <summary>
+            The Z component of the vector.
+            </summary>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Vector3f.#ctor(System.Single,System.Single,System.Single)">
+            <summary>
+            The constructor that takes in three floating point values.
+            </summary>
+            <param name="x">The value to be assigned to the X component of the vector.</param>
+            <param name="y">The value to be assigned to the Y component of the vector.</param>
+            <param name="z">The value to be assigned to the Z component of the vector.</param>
+        </member>
+        <member name="P:ScenarioSim.Core.Entities.Vector3f.Magnitude">
+            <summary>
+            Returns the magnitude of the vector.
+            </summary>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Vector3f.Dot(ScenarioSim.Core.Entities.Vector3f,ScenarioSim.Core.Entities.Vector3f)">
+            <summary>
+            Determines the dot product of two given vectors.
+            </summary>
+            <param name="a">The first vector.</param>
+            <param name="b">The second vector.</param>
+            <returns>The dot product of the two vectors.</returns>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Vector3f.AngleBetween(ScenarioSim.Core.Entities.Vector3f,ScenarioSim.Core.Entities.Vector3f)">
+            <summary>
+            Determines the angle between two given vectors.
+            </summary>
+            <param name="a">The first vector.</param>
+            <param name="b">The second vector.</param>
+            <returns>The angle between the two vectors.</returns>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Vector3f.DistanceBetween(ScenarioSim.Core.Entities.Vector3f,ScenarioSim.Core.Entities.Vector3f)">
+            <summary>
+            Determines the euclidean distance between two vectors.
+            </summary>
+            <param name="a">The first vector.</param>
+            <param name="b">The second vector.</param>
+            <returns>The euclidean distance between the two vectors.</returns>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Vector3f.op_Addition(ScenarioSim.Core.Entities.Vector3f,ScenarioSim.Core.Entities.Vector3f)">
+            <summary>
+            Performs vector addition between two vectors.
+            </summary>
+            <param name="a">The first vector.</param>
+            <param name="b">The second vector.</param>
+            <returns>A vector that is the sum of the two vectors.</returns>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Vector3f.op_Subtraction(ScenarioSim.Core.Entities.Vector3f,ScenarioSim.Core.Entities.Vector3f)">
+            <summary>
+            Performs vector subtraction between two vectors.
+            </summary>
+            <param name="a">The first vector.</param>
+            <param name="b">The second vector.</param>
+            <returns>A vector that is the difference of the two vectors.</returns>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Vector3f.op_Multiply(ScenarioSim.Core.Entities.Vector3f,ScenarioSim.Core.Entities.Vector3f)">
+            <summary>
+            Implements the operator *.
+            </summary>
+            <param name="a">a.</param>
+            <param name="b">The b.</param>
+            <returns>
+            The result of the operator.
+            </returns>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Vector3f.op_Multiply(System.Single,ScenarioSim.Core.Entities.Vector3f)">
+            <summary>
+            Implements the operator *.
+            </summary>
+            <param name="a">a.</param>
+            <param name="b">The b.</param>
+            <returns>
+            The result of the operator.
+            </returns>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Vector3f.op_Division(ScenarioSim.Core.Entities.Vector3f,ScenarioSim.Core.Entities.Vector3f)">
+            <summary>
+            Implements the operator /.
+            </summary>
+            <param name="a">a.</param>
+            <param name="b">The b.</param>
+            <returns>
+            The result of the operator.
+            </returns>
+        </member>
+        <member name="M:ScenarioSim.Core.Entities.Vector3f.ToString">
+            <summary>
+            Displays the information of the vector in a string.
+            </summary>
+            <returns>A string representation of the vector.</returns>
+        </member>
+    </members>
+</doc>
